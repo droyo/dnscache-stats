@@ -7,7 +7,8 @@ metrics database.
 	dnscache-stats [-i 60s] [-t metrics-template] [-f file] graphite-host[:port]
 
 Dnscache-stats will read data on standard input, and upload various metrics
-to the provided server using Graphite's [plain-text protocol format][2]. All
+to the provided server using Graphite's [plain-text protocol format][2]. If
+graphite-host is "-", metrics are written to standard error instead. All
 data read on stdin is echoed to stdout, unmodified, so that dnscache-stats
 can be used as a log script for dnscache:
 
@@ -45,7 +46,7 @@ convention, run:
 
 	dnscache-stats -t 'collectd.{{.Hostname}}.dnscache.{{.Metric}}'
 
-Within the template, the `.Service` will be the name of the service directory used by
+Within the template, `.Service` will be the name of the service directory used by
 daemontools, if it is possible to infer. For instance, if dnscache-stats is run from
 `/service/dnscache-primary/log`, then the command
 
@@ -91,6 +92,9 @@ dnscache's log output.
 - dnscache-stats will exit if it can no longer write to stdout. This is important when
   running dnscache-stats as a log program under daemontools, as it will ensure that
   the supervise program will restart it.
+- When following a physical file (via the -f flag), dnscache will attempt to detect and
+  re-open the file if it is renamed (such as during log rotation). This process is
+  imperfect and can result in (very small) errors in metrics.
 
 # Building and developing dnscache-stats
 

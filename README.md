@@ -6,11 +6,12 @@ metrics database.
 
 	dnscache-stats [-i 60s] [-t metrics-template] [-f file] graphite-host[:port]
 
-Dnscache-stats will read data on standard input, and upload various metrics
-to the provided server using Graphite's [plain-text protocol format][2]. If
-graphite-host is "-", metrics are written to standard error instead. All
-data read on stdin is echoed to stdout, unmodified, so that dnscache-stats
-can be used as a log script for dnscache:
+Dnscache-stats will read data on standard input, and upload various
+metrics to the provided server using Graphite's [plain-text protocol
+format][2]. If graphite-host is a file name (begins with '.' or '/'),
+metrics are appended to the file instead. All data read on stdin is
+echoed to stdout, unmodified, so that dnscache-stats can be used as a
+log script for dnscache:
 
 	#!/bin/sh
 	exec setuidgid Gdnslog graphite-stats graphite.example.net | \
@@ -50,7 +51,7 @@ Within the template, `.Service` will be the name of the service directory used b
 daemontools, if it is possible to infer. For instance, if dnscache-stats is run from
 `/service/dnscache-primary/log`, then the command
 
-	dnscache-stats -t servers.{{.Hostname}}.dnscache.{{.Service|rsplit "-"|index 0}}.{{.Metric}}
+	dnscache-stats -t servers.{{.Hostname}}.dnscache.{{.Service|rstrip "dnscache-"}}.{{.Metric}}
 
 will generate metrics such as the following
 

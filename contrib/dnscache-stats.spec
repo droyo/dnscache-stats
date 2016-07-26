@@ -38,6 +38,7 @@ install -m755 contrib/dnscache-stats.8 $RPM_BUILD_ROOT%{_mandir}/man8/dnscache-s
 %files
 %defattr(-, root, root, -)
 %{_bindir}/dnscache-stats
+%{_mandir}/man8/*
 %doc README.md LICENSE
 %doc contrib/dnscache-stats.run
 

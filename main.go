@@ -325,8 +325,8 @@ func toGraphite(hostport string, out *template.Template, wg sync.WaitGroup) (cha
 		bw := bufio.NewWriter(conn)
 		for m := range c {
 			out.Execute(bw, m)
+			bw.Flush()
 		}
-		bw.Flush()
 		conn.Close()
 		wg.Done()
 	}()

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/droyo/dnscache-stats.svg?branch=master)](https://travis-ci.org/droyo/dnscache-stats)
+
 The dnscache-stats program can be used to send metrics generated from
 the log entries of the [dnscache][1] program to a graphite-compatible
 metrics database.

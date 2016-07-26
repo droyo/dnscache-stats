@@ -359,6 +359,7 @@ func main() {
 	})
 
 	Hostname, err = os.Hostname()
+	Hostname = strings.SplitN(Hostname, ".", 1)[0]
 	if err != nil {
 		log.Fatal(err)
 	}

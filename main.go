@@ -137,18 +137,16 @@ func (l *logReader) run() {
 				continue
 			}
 			line = line[1:]
-		} else {
-			now = time.Now()
-		}
-		if lastTime.IsZero() {
-			lastTime = now.Truncate(l.interval)
-		} else if now.Sub(lastTime) >= l.interval {
-			// Do this instead of lastTime = now so we get
-			// evenly spaced data points
-			lastTime = now.Truncate(l.interval)
-			if l.timestamped {
+			if lastTime.IsZero() {
+				lastTime = now.Truncate(l.interval)
+			} else if now.Sub(lastTime) >= l.interval {
+				// Do this instead of lastTime = now so we get
+				// evenly spaced data points
+				lastTime = now.Truncate(l.interval)
 				l.sample(lastTime)
 			}
+		} else {
+			now = time.Now()
 		}
 		l.parseLine(now, line)
 	}

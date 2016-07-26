@@ -4,7 +4,7 @@ metrics database.
 
 # Usage
 
-	dnscache-stats [-i 60s] [-t metrics-template] [-f file] graphite-host[:port]
+	dnscache-stats [-i 60s] [-m metrics-template] [-f file] graphite-host[:port]
 
 Dnscache-stats will read data on standard input, and upload various
 metrics to the provided server using Graphite's [plain-text protocol
@@ -13,9 +13,10 @@ metrics are appended to the file instead. All data read on stdin is
 echoed to stdout, unmodified, so that dnscache-stats can be used as a
 log script for dnscache:
 
-	#!/bin/sh
-	exec setuidgid Gdnslog graphite-stats graphite.example.net | \
-		exec setuidgid Gdnslog multilog t ./main
+	#!/bin/bash
+	exec > >(exec setuidgid Gdnslog multilog t ./main)
+	exec setuidgid Gdnslog graphite-stats graphite.example.net
+		
 
 This is the recommended way to run dnscache-stats. Alternatively, it can be
 run as a standalone service using the -f flag. Here is an example systemd
@@ -41,17 +42,17 @@ By default, metrics names will be of the form
 
 	servers.HOSTNAME.dnscache.METRIC_NAME
 
-This naming convention is taken from [Diamond][3]. The -t flag can be used to change
+This naming convention is taken from [Diamond][3]. The -m flag can be used to change
 the naming convention. For instance, to change the naming convention to the collectd
 convention, run:
 
-	dnscache-stats -t 'collectd.{{.Hostname}}.dnscache.{{.Metric}}'
+	dnscache-stats -m 'collectd.{{.Hostname}}.dnscache.{{.Metric}}'
 
 Within the template, `.Service` will be the name of the service directory used by
 daemontools, if it is possible to infer. For instance, if dnscache-stats is run from
 `/service/dnscache-primary/log`, then the command
 
-	dnscache-stats -t servers.{{.Hostname}}.dnscache.{{.Service|rstrip "dnscache-"}}.{{.Metric}}
+	dnscache-stats -m servers.{{.Hostname}}.dnscache.{{.Service|rstrip "dnscache-"}}.{{.Metric}}
 
 will generate metrics such as the following
 
@@ -68,8 +69,8 @@ assumes the default interval (-i option) of 1 minute:
 - `tcp_active`: max sample of the number of pending (unfinished) TCP queries over the last minute
 - `cache_hits`: number of cache hits
 - `drop`: the number of dropped queries
-- `query_avg`: mean query time of all requests in the last minute
-- `query_max`: slowest query in the last minute
+- `query_avg_us`: mean query time of all requests in the last minute (μs)
+- `query_max_us`: slowest query in the last minute (μs)
 - `servfail`: number of failure responses sent
 - `tx`: number of outgoing queries dnscache made to resolve a record
 
@@ -87,19 +88,20 @@ dnscache's log output.
   will only consider the first 100,000 queries. This is to prevent dnscache-stats
   from consuming an unpredictable amount of memory and is controlled by
   the compile-time constant `QueryTrackingLimit`.
-- dnscache-stats will buffer up to 100 entries of each metric in memory if they
-  cannot be sent to the graphite server. Once the buffer is filled, the oldest metrics
-  are dropped first.
+- dnscache-stats will buffer up to 100 metrics in memory if they
+  cannot be sent to the graphite server. Once the buffer is filled,
+  the oldest metrics are dropped first. This is controlled by the
+  compile-time constant `MetricsBufferMax`.
 - dnscache-stats will exit if it can no longer write to stdout. This is important when
   running dnscache-stats as a log program under daemontools, as it will ensure that
-  the supervise program will restart it.
+  the supervise program will restart it if multilog dies.
 - When following a physical file (via the -f flag), dnscache will attempt to detect and
   re-open the file if it is renamed (such as during log rotation). This process is
   imperfect and can result in (very small) errors in metrics.
 
 # Building and developing dnscache-stats
 
-Dnscache-stats is written with Go, and can be built with Go version 1.4 or above.
+Dnscache-stats is written with Go, and can be built with Go version 1.6 or above.
 To build dnscache, run
 
 	go build
@@ -109,7 +111,7 @@ Or, to fetch, build and install dnscache-stats to $GOPATH/bin, run
 	go get github.com/droyo/dnscache-stats
 
 Pull requests are welcome, and any issues can be opened through github.
-Please run `go test` before submitting any changes.
+Please run `go test` and `go fmt` before submitting any changes.
 
 # Packaging and deploying dnscache-stats
 

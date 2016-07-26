@@ -1,0 +1,8 @@
+#!/bin/bash
+# This is an example run script for dnscache-stats.
+# Use this to replace /service/dnscache/log/run or
+# similar. Replace /dev/null with the desired destination
+# (a host:port for graphite or ./path/to/file). On
+# some systems, the user may not be Gdnslog.
+exec > >(exec setuidgid Gdnslog multilog t ./main)
+exec setuidgid Gdnslog dnscache-stats /dev/null

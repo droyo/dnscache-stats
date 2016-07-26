@@ -1,0 +1,151 @@
+.TH DNSCACHE-STATS 8
+.SH NAME
+dnscache-stats \- collect metrics from dnscache output
+.SH SYNOPSIS
+.B dnscache-stats 
+[-v -tai64]
+[-i
+.IR interval ]
+[-m
+.IR template ]
+[-f
+.IR file ]
+.I dest
+.SH DESCRIPTION
+Dnscache-stats will read data on standard input, and upload various
+metrics to the provided server using Graphite's plain-text protocol
+format. If 
+.I dest
+is a file name (begins with '.' or '/'),
+metrics are appended to the file instead. All data read on stdin
+is copied to stdout, verbatim, so that dnscache-stats can be used
+as a log script for dnscache. Dnscache-stats will write verbose information
+about its own operation to stderr if the -v flag is specified.
+.P
+If provided, dnscache-stats will attempt to open and follow
+.I file
+instead of reading from standard input. Dnscache-stats will generate
+a set of data points every 60 seconds,
+or 
+.IR interval ,
+if specified. If -tai64 is specified, dnscache-stats expects every
+line of input to be prefixed with a tai64n timestamp, and generated
+metrics will be relative to the timestamps in the input, rather
+than the time at which they were read.
+.P
+Generated data points will have the following naming convention:
+.IP
+.nf
+servers.$HOSTNAME.dnscache.$METRIC
+.fi
+.P
+The -m flag can be used to provide a different naming convention.
+Within
+.IR template ,
+The following values will be substituted when surrounded by
+doubled curly braces:
+.TP
+\&.Metric
+The base name of the metric. See the GENERATED METRICS section below.
+.TP
+\&.Hostname
+The short hostname of the current host.
+.TP
+\&.Service
+The service directory of this script, e.g. "dnscache".
+
+.SH GENERATED METRICS
+Dnscache-stats will generate the following metrics:
+.TP
+queries
+The number of queries received by dnscache in the last
+interval.
+.TP
+cache_motion
+The number of bytes written to the cache in the last
+interval.
+.TP
+udp_active
+The maximum number of pending (unanswered) UDP
+requests during the last interval.
+.TP
+tcp_active
+The maximum number of pending(unanswered) TCP
+requests during the last interval.
+.TP
+cache_hits
+The total number of cache hits for any type of record in the last
+interval.
+.TP
+drop
+The number of requests dnscache decided not to answer due
+to timeouts or other errors.
+.TP
+query_max_us
+The highest duration out of the first 100k queries during interval,
+in microseconds. Duration is the time between when the request
+is received by dnscache, to when the answer is sent back to the 
+client.
+.TP
+query_avg_us
+The average duration out of the first 100k queries during interval,
+in microseconds.
+.TP
+servfail
+The number of servfail answers sent by dnscache in the last interval.
+Dnscache sends a servfail when it experiences an error that prevents
+it from answering a request.
+.TP
+tx
+The total number of outgoing requests made by dnscache to resolve
+incoming requests during the last interval.
+.SH RETURN VALUE
+Dnscache-stats will exit 0 if it finishes reading its input. If an error
+is encountered reading to the input, or writing to its output, dnscache-stats
+will exit 1.
+.SH EXAMPLES
+The following are example run scripts for daemontools log services.
+.P
+Run dnscache-stats as a log handler with default settings, uploading
+metrics to the carbon server graphite.example.net:
+.IP
+.nf
+#!/bin/bash
+exec > >(exec setuidgid Gdnslog multilog t s16777215 n20 \\
+	'-* rr *' '-* query *' '-* tx *' '-* cached *' '-* sent *' ./main)
+exec setuidgid Gdnslog dnscache-stats graphite.example.net
+.fi
+.P
+Run dnscache-stats in standalone mode, following the dnscache
+log file and appending metrics to /tmp/dnscache-stats:
+.IP
+.nf
+#!/bin/sh
+exec setuidgid Gdnslog dnscache-stats \\
+	-f /service/dnscache/log/main/current \\
+	/tmp/dnscache-stats
+.fi
+.P
+Run dnscache-stats with the collectd naming convention for metrics:
+.IP
+.nf
+#!/bin/bash
+exec > >(exec setuidgid Gdnslog multilog t s16777215 n20 \\
+	'-* rr *' '-* query *' '-* tx *' '-* cached *' '-* sent *' ./main)
+exec setuidgid Gdnslog dnscache-stats \\
+	-m 'collectd.{{.Hostname}}.dnscache.{{.Metric}}' \\
+	graphite.example.net
+.fi
+
+.SH AUTHOR
+David A. Arroyo
+<droyo@aqwari.net>
+.SH BUGS
+Dnscache-stats will not attempt to reconnect to a graphite server if
+its connection is lost or interrupted. In such an event, it must be restarted
+manually.
+.P
+Use dnscache-stats with care on high-volume cache servers. Currently
+it will use roughly as much CPU resources as dnscache itself, so
+ensure you have enough capacity to run it without slowing down your
+server.

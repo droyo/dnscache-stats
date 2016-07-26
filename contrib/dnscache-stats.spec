@@ -2,7 +2,7 @@
 %global __strip /bin/true
 
 Name: dnscache-stats
-Version: 0.0.1
+Version: 0.0.2
 Release: 1
 License: MIT
 Group: Development/Tools

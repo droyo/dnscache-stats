@@ -109,7 +109,7 @@ type logReader struct {
 	timestamped bool
 	done        chan struct{}
 
-	mu *sync.Mutex // protects following members
+	mu sync.Mutex // protects following members
 	stats
 }
 
@@ -400,7 +400,6 @@ func main() {
 		interval:    *interval,
 		timestamped: *timestampedLog,
 		done:        make(chan struct{}),
-		mu:          new(sync.Mutex),
 		stats: stats{
 			queries: make(map[string]time.Time, 10000),
 		},

@@ -1,0 +1,2495 @@
+starting
+query 1 7f000001:c563:4b76 1 google.com.
+tx 0 1 google.com. . c0702404 c1000e81 c0249411 c0e44fc9 c00505f1 80080a5a ca0c1b21 c6290004 c03a801e 803f0235 c021040c c707532a c0cbe60a
+rr c0702404 172800 1 a.gtld-servers.net. c005061e
+rr c0702404 172800 1 b.gtld-servers.net. c0210e1e
+rr c0702404 172800 1 c.gtld-servers.net. c01a5c1e
+rr c0702404 172800 1 d.gtld-servers.net. c01f501e
+rr c0702404 172800 1 e.gtld-servers.net. c00c5e1e
+rr c0702404 172800 1 f.gtld-servers.net. c023331e
+rr c0702404 172800 1 g.gtld-servers.net. c02a5d1e
+rr c0702404 172800 1 h.gtld-servers.net. c036701e
+rr c0702404 172800 1 i.gtld-servers.net. c02bac1e
+rr c0702404 172800 1 j.gtld-servers.net. c0304f1e
+rr c0702404 172800 1 k.gtld-servers.net. c034b21e
+rr c0702404 172800 1 l.gtld-servers.net. c029a21e
+rr c0702404 172800 1 m.gtld-servers.net. c037531e
+rr c0702404 172800 ns com. j.gtld-servers.net.
+rr c0702404 172800 ns com. a.gtld-servers.net.
+rr c0702404 172800 ns com. f.gtld-servers.net.
+rr c0702404 172800 ns com. l.gtld-servers.net.
+rr c0702404 172800 ns com. b.gtld-servers.net.
+rr c0702404 172800 ns com. g.gtld-servers.net.
+rr c0702404 172800 ns com. c.gtld-servers.net.
+rr c0702404 172800 ns com. k.gtld-servers.net.
+rr c0702404 172800 ns com. m.gtld-servers.net.
+rr c0702404 172800 ns com. h.gtld-servers.net.
+rr c0702404 172800 ns com. e.gtld-servers.net.
+rr c0702404 172800 ns com. i.gtld-servers.net.
+rr c0702404 172800 ns com. d.gtld-servers.net.
+rr c0702404 172800 28 a.gtld-servers.net. 20010503a83e00000000000000020030
+stats 1 945 1 0
+cached 1 j.gtld-servers.net.
+cached 1 a.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 e.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+tx 0 1 google.com. com. c036701e c034b21e c0304f1e c02a5d1e c01a5c1e c00c5e1e c02bac1e c029a21e c0210e1e c01f501e c023331e c005061e c037531e
+rr c036701e 172800 1 ns1.google.com. d8ef200a
+rr c036701e 172800 1 ns2.google.com. d8ef220a
+rr c036701e 172800 1 ns3.google.com. d8ef240a
+rr c036701e 172800 1 ns4.google.com. d8ef260a
+rr c036701e 172800 ns google.com. ns2.google.com.
+rr c036701e 172800 ns google.com. ns1.google.com.
+rr c036701e 172800 ns google.com. ns3.google.com.
+rr c036701e 172800 ns google.com. ns4.google.com.
+stats 1 1211 1 0
+cached 1 ns2.google.com.
+cached 1 ns1.google.com.
+cached 1 ns3.google.com.
+cached 1 ns4.google.com.
+tx 0 1 google.com. google.com. d8ef220a d8ef240a d8ef260a d8ef200a
+rr d8ef220a 300 1 google.com. acd9002e
+stats 1 1249 1 0
+sent 1 44
+query 2 7f000001:879a:532e 28 google.com.
+cached ns google.com. ns2.google.com.
+cached ns google.com. ns1.google.com.
+cached ns google.com. ns3.google.com.
+cached ns google.com. ns4.google.com.
+cached 1 ns2.google.com.
+cached 1 ns1.google.com.
+cached 1 ns3.google.com.
+cached 1 ns4.google.com.
+tx 0 28 google.com. google.com. d8ef240a d8ef220a d8ef260a d8ef200a
+rr d8ef240a 300 28 google.com. 2607f8b040060807000000000000200e
+stats 2 1301 1 0
+sent 2 56
+query 3 7f000001:abde:2fb8 15 google.com.
+cached ns google.com. ns2.google.com.
+cached ns google.com. ns1.google.com.
+cached ns google.com. ns3.google.com.
+cached ns google.com. ns4.google.com.
+cached 1 ns2.google.com.
+cached 1 ns1.google.com.
+cached 1 ns3.google.com.
+cached 1 ns4.google.com.
+tx 0 15 google.com. google.com. d8ef240a d8ef220a d8ef260a d8ef200a
+rr d8ef240a 293 1 aspmx.l.google.com. adc2d01a
+rr d8ef240a 293 1 alt1.aspmx.l.google.com. 40e9ba1a
+rr d8ef240a 293 1 alt2.aspmx.l.google.com. d155cb1a
+rr d8ef240a 293 1 alt3.aspmx.l.google.com. 6cb10f1a
+rr d8ef240a 293 1 alt4.aspmx.l.google.com. 4a7d881a
+rr d8ef240a 600 mx google.com. 50 alt4.aspmx.l.google.com.
+rr d8ef240a 600 mx google.com. 20 alt1.aspmx.l.google.com.
+rr d8ef240a 600 mx google.com. 10 aspmx.l.google.com.
+rr d8ef240a 600 mx google.com. 40 alt3.aspmx.l.google.com.
+rr d8ef240a 600 mx google.com. 30 alt2.aspmx.l.google.com.
+stats 3 1715 1 0
+sent 3 136
+query 4 7f000001:971d:16de 1 reddit.com.
+cached ns com. j.gtld-servers.net.
+cached ns com. a.gtld-servers.net.
+cached ns com. f.gtld-servers.net.
+cached ns com. l.gtld-servers.net.
+cached ns com. b.gtld-servers.net.
+cached ns com. g.gtld-servers.net.
+cached ns com. c.gtld-servers.net.
+cached ns com. k.gtld-servers.net.
+cached ns com. m.gtld-servers.net.
+cached ns com. h.gtld-servers.net.
+cached ns com. e.gtld-servers.net.
+cached ns com. i.gtld-servers.net.
+cached ns com. d.gtld-servers.net.
+cached 1 j.gtld-servers.net.
+cached 1 a.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 e.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+tx 0 1 reddit.com. com. c034b21e c005061e c02bac1e c029a21e c036701e c037531e c01a5c1e c00c5e1e c02a5d1e c023331e c0304f1e c0210e1e c01f501e
+rr c034b21e 172800 1 cns1.reddit.com. adf53a18
+rr c034b21e 172800 1 cns2.reddit.com. c629de18
+rr c034b21e 172800 1 cns3.reddit.com. c629df18
+rr c034b21e 172800 ns reddit.com. cns1.reddit.com.
+rr c034b21e 172800 ns reddit.com. cns2.reddit.com.
+rr c034b21e 172800 ns reddit.com. cns3.reddit.com.
+rr c034b21e 172800 28 cns1.reddit.com. 2400cb002049000100000000adf53a18
+rr c034b21e 172800 28 cns2.reddit.com. 2400cb002049000100000000c629de18
+rr c034b21e 172800 28 cns3.reddit.com. 2400cb002049000100000000c629df18
+stats 4 2100 1 0
+cached 1 cns1.reddit.com.
+cached 1 cns2.reddit.com.
+cached 1 cns3.reddit.com.
+tx 0 1 reddit.com. reddit.com. adf53a18 c629df18 c629de18
+rr adf53a18 300 1 reddit.com. c629d18b
+rr adf53a18 300 1 reddit.com. c629d18a
+rr adf53a18 300 1 reddit.com. c629d08c
+rr adf53a18 300 1 reddit.com. c629d08b
+rr adf53a18 300 1 reddit.com. c629d18c
+rr adf53a18 300 1 reddit.com. c629d08f
+rr adf53a18 300 1 reddit.com. c629d089
+rr adf53a18 300 1 reddit.com. c629d08e
+rr adf53a18 300 1 reddit.com. c629d18f
+rr adf53a18 300 1 reddit.com. c629d189
+rr adf53a18 300 1 reddit.com. c629d188
+rr adf53a18 300 1 reddit.com. c629d18d
+rr adf53a18 300 1 reddit.com. c629d08a
+rr adf53a18 300 1 reddit.com. c629d08d
+rr adf53a18 300 1 reddit.com. c629d18e
+stats 4 2194 1 0
+sent 4 268
+query 5 7f000001:8d08:b1b9 12 139.209.41.198.in-addr.arpa.
+tx 0 12 139.209.41.198.in-addr.arpa. . c03a801e ca0c1b21 c0e44fc9 80080a5a c021040c c1000e81 c707532a c0249411 c6290004 c00505f1 803f0235 c0cbe60a c0702404
+rr c03a801e 172800 1 a.in-addr-servers.arpa. c7d40049
+rr c03a801e 172800 1 b.in-addr-servers.arpa. c7fdb7b7
+rr c03a801e 172800 1 c.in-addr-servers.arpa. c4d8a90a
+rr c03a801e 172800 1 d.in-addr-servers.arpa. c80a3c35
+rr c03a801e 172800 1 e.in-addr-servers.arpa. cb775665
+rr c03a801e 172800 1 f.in-addr-servers.arpa. c1000901
+rr c03a801e 172800 ns in-addr.arpa. a.in-addr-servers.arpa.
+rr c03a801e 172800 ns in-addr.arpa. b.in-addr-servers.arpa.
+rr c03a801e 172800 ns in-addr.arpa. c.in-addr-servers.arpa.
+rr c03a801e 172800 ns in-addr.arpa. d.in-addr-servers.arpa.
+rr c03a801e 172800 ns in-addr.arpa. e.in-addr-servers.arpa.
+rr c03a801e 172800 ns in-addr.arpa. f.in-addr-servers.arpa.
+rr c03a801e 172800 28 a.in-addr-servers.arpa. 20010500001300000000000000000073
+rr c03a801e 172800 28 b.in-addr-servers.arpa. 20010500008700000000000000000087
+rr c03a801e 172800 28 c.in-addr-servers.arpa. 200143f8011000000000000000000010
+rr c03a801e 172800 28 d.in-addr-servers.arpa. 200113c7701000000000000000000053
+rr c03a801e 172800 28 e.in-addr-servers.arpa. 20010dd8000600000000000000000101
+rr c03a801e 172800 28 f.in-addr-servers.arpa. 2001067c00e000000000000000000001
+stats 5 3058 1 0
+cached 1 a.in-addr-servers.arpa.
+cached 1 b.in-addr-servers.arpa.
+cached 1 c.in-addr-servers.arpa.
+cached 1 d.in-addr-servers.arpa.
+cached 1 e.in-addr-servers.arpa.
+cached 1 f.in-addr-servers.arpa.
+tx 0 12 139.209.41.198.in-addr.arpa. in-addr.arpa. c7fdb7b7 c7d40049 c80a3c35 c1000901 cb775665 c4d8a90a
+rr c7fdb7b7 86400 ns 198.in-addr.arpa. r.arin.net.
+rr c7fdb7b7 86400 ns 198.in-addr.arpa. u.arin.net.
+rr c7fdb7b7 86400 ns 198.in-addr.arpa. x.arin.net.
+rr c7fdb7b7 86400 ns 198.in-addr.arpa. y.arin.net.
+rr c7fdb7b7 86400 ns 198.in-addr.arpa. z.arin.net.
+rr c7fdb7b7 86400 ns 198.in-addr.arpa. arin.authdns.ripe.net.
+stats 5 3181 1 0
+tx 1 1 r.arin.net. . c021040c c707532a c6290004 c1000e81 c03a801e c0249411 c0e44fc9 c0cbe60a 80080a5a ca0c1b21 c0702404 803f0235 c00505f1
+rr c021040c 172800 1 a.gtld-servers.net. c005061e
+rr c021040c 172800 1 b.gtld-servers.net. c0210e1e
+rr c021040c 172800 1 c.gtld-servers.net. c01a5c1e
+rr c021040c 172800 1 d.gtld-servers.net. c01f501e
+rr c021040c 172800 1 e.gtld-servers.net. c00c5e1e
+rr c021040c 172800 1 f.gtld-servers.net. c023331e
+rr c021040c 172800 1 g.gtld-servers.net. c02a5d1e
+rr c021040c 172800 1 h.gtld-servers.net. c036701e
+rr c021040c 172800 1 i.gtld-servers.net. c02bac1e
+rr c021040c 172800 1 j.gtld-servers.net. c0304f1e
+rr c021040c 172800 1 k.gtld-servers.net. c034b21e
+rr c021040c 172800 1 l.gtld-servers.net. c029a21e
+rr c021040c 172800 ns net. e.gtld-servers.net.
+rr c021040c 172800 ns net. f.gtld-servers.net.
+rr c021040c 172800 ns net. m.gtld-servers.net.
+rr c021040c 172800 ns net. h.gtld-servers.net.
+rr c021040c 172800 ns net. l.gtld-servers.net.
+rr c021040c 172800 ns net. k.gtld-servers.net.
+rr c021040c 172800 ns net. c.gtld-servers.net.
+rr c021040c 172800 ns net. j.gtld-servers.net.
+rr c021040c 172800 ns net. a.gtld-servers.net.
+rr c021040c 172800 ns net. b.gtld-servers.net.
+rr c021040c 172800 ns net. g.gtld-servers.net.
+rr c021040c 172800 ns net. i.gtld-servers.net.
+rr c021040c 172800 ns net. d.gtld-servers.net.
+rr c021040c 172800 28 a.gtld-servers.net. 20010503a83e00000000000000020030
+rr c021040c 172800 28 b.gtld-servers.net. 20010503231d00000000000000020030
+stats 5 4140 1 0
+cached 1 e.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 j.gtld-servers.net.
+cached 1 a.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+tx 1 1 r.arin.net. net. c01a5c1e c023331e c034b21e c01f501e c02a5d1e c029a21e c0210e1e c0304f1e c036701e c02bac1e c00c5e1e c005061e c037531e
+rr c01a5c1e 172800 1 u.arin.net. cc3dd832
+rr c01a5c1e 172800 1 v.arin.net. 3ff3c202
+rr c01a5c1e 172800 1 ns1.arin.net. c7d4006c
+rr c01a5c1e 172800 1 ns2.arin.net. c747006c
+rr c01a5c1e 172800 1 ns3.arin.net. c7051a6c
+rr c01a5c1e 172800 ns arin.net. ns1.arin.net.
+rr c01a5c1e 172800 ns arin.net. ns2.arin.net.
+rr c01a5c1e 172800 ns arin.net. v.arin.net.
+rr c01a5c1e 172800 ns arin.net. u.arin.net.
+rr c01a5c1e 172800 ns arin.net. ns3.arin.net.
+rr c01a5c1e 172800 28 u.arin.net. 200105000014605000ad000000000001
+rr c01a5c1e 172800 28 v.arin.net. 200105a0001000000000000000000002
+rr c01a5c1e 172800 28 ns1.arin.net. 20010500001300000000000000000108
+rr c01a5c1e 172800 28 ns2.arin.net. 20010500003100000000000000000108
+rr c01a5c1e 172800 28 ns3.arin.net. 2001050000a900000000000000000108
+stats 5 4700 1 0
+cached 1 ns1.arin.net.
+cached 1 ns2.arin.net.
+cached 1 v.arin.net.
+cached 1 u.arin.net.
+cached 1 ns3.arin.net.
+tx 1 1 r.arin.net. arin.net. 3ff3c202 c747006c c7051a6c cc3dd832 c7d4006c
+rr 3ff3c202 43200 1 r.arin.net. c7b4b43f
+rr 3ff3c202 43200 1 u.arin.net. cc3dd832
+rr 3ff3c202 43200 1 v.arin.net. 3ff3c202
+rr 3ff3c202 43200 1 ns1.arin.net. c7d4006c
+rr 3ff3c202 43200 1 ns2.arin.net. c747006c
+rr 3ff3c202 43200 1 ns3.arin.net. c7051a6c
+rr 3ff3c202 43200 ns arin.net. u.arin.net.
+rr 3ff3c202 43200 ns arin.net. ns1.arin.net.
+rr 3ff3c202 43200 ns arin.net. v.arin.net.
+rr 3ff3c202 43200 ns arin.net. ns3.arin.net.
+rr 3ff3c202 43200 ns arin.net. ns2.arin.net.
+rr 3ff3c202 43200 28 u.arin.net. 200105000014605000ad000000000001
+rr 3ff3c202 43200 28 v.arin.net. 200105a0001000000000000000000002
+rr 3ff3c202 43200 28 ns1.arin.net. 20010500001300000000000000000108
+rr 3ff3c202 43200 28 ns2.arin.net. 20010500003100000000000000000108
+rr 3ff3c202 43200 28 ns3.arin.net. 2001050000a900000000000000000108
+stats 5 5298 1 0
+cached 1 u.arin.net.
+cached ns arin.net. u.arin.net.
+cached ns arin.net. ns1.arin.net.
+cached ns arin.net. v.arin.net.
+cached ns arin.net. ns3.arin.net.
+cached ns arin.net. ns2.arin.net.
+cached 1 u.arin.net.
+cached 1 ns1.arin.net.
+cached 1 v.arin.net.
+cached 1 ns3.arin.net.
+cached 1 ns2.arin.net.
+tx 1 1 x.arin.net. arin.net. c747006c cc3dd832 3ff3c202 c7051a6c c7d4006c
+rr c747006c 43200 1 u.arin.net. cc3dd832
+rr c747006c 43200 1 v.arin.net. 3ff3c202
+rr c747006c 43200 1 x.arin.net. c747003f
+rr c747006c 43200 1 ns1.arin.net. c7d4006c
+rr c747006c 43200 1 ns2.arin.net. c747006c
+rr c747006c 43200 1 ns3.arin.net. c7051a6c
+rr c747006c 43200 ns arin.net. ns2.arin.net.
+rr c747006c 43200 ns arin.net. ns1.arin.net.
+rr c747006c 43200 ns arin.net. u.arin.net.
+rr c747006c 43200 ns arin.net. v.arin.net.
+rr c747006c 43200 ns arin.net. ns3.arin.net.
+rr c747006c 43200 28 u.arin.net. 200105000014605000ad000000000001
+rr c747006c 43200 28 v.arin.net. 200105a0001000000000000000000002
+rr c747006c 43200 28 ns1.arin.net. 20010500001300000000000000000108
+rr c747006c 43200 28 ns2.arin.net. 20010500003100000000000000000108
+rr c747006c 43200 28 ns3.arin.net. 2001050000a900000000000000000108
+stats 5 5896 1 0
+cached ns arin.net. ns2.arin.net.
+cached ns arin.net. ns1.arin.net.
+cached ns arin.net. u.arin.net.
+cached ns arin.net. v.arin.net.
+cached ns arin.net. ns3.arin.net.
+cached 1 ns2.arin.net.
+cached 1 ns1.arin.net.
+cached 1 u.arin.net.
+cached 1 v.arin.net.
+cached 1 ns3.arin.net.
+tx 1 1 y.arin.net. arin.net. 3ff3c202 c7051a6c cc3dd832 c7d4006c c747006c
+rr 3ff3c202 43200 1 u.arin.net. cc3dd832
+rr 3ff3c202 43200 1 v.arin.net. 3ff3c202
+rr 3ff3c202 43200 1 y.arin.net. c052861e
+rr 3ff3c202 43200 1 ns1.arin.net. c7d4006c
+rr 3ff3c202 43200 1 ns2.arin.net. c747006c
+rr 3ff3c202 43200 1 ns3.arin.net. c7051a6c
+rr 3ff3c202 43200 ns arin.net. ns2.arin.net.
+rr 3ff3c202 43200 ns arin.net. ns3.arin.net.
+rr 3ff3c202 43200 ns arin.net. u.arin.net.
+rr 3ff3c202 43200 ns arin.net. v.arin.net.
+rr 3ff3c202 43200 ns arin.net. ns1.arin.net.
+rr 3ff3c202 43200 28 u.arin.net. 200105000014605000ad000000000001
+rr 3ff3c202 43200 28 v.arin.net. 200105a0001000000000000000000002
+rr 3ff3c202 43200 28 ns1.arin.net. 20010500001300000000000000000108
+rr 3ff3c202 43200 28 ns2.arin.net. 20010500003100000000000000000108
+rr 3ff3c202 43200 28 ns3.arin.net. 2001050000a900000000000000000108
+stats 5 6494 1 0
+cached ns arin.net. ns2.arin.net.
+cached ns arin.net. ns3.arin.net.
+cached ns arin.net. u.arin.net.
+cached ns arin.net. v.arin.net.
+cached ns arin.net. ns1.arin.net.
+cached 1 ns2.arin.net.
+cached 1 ns3.arin.net.
+cached 1 u.arin.net.
+cached 1 v.arin.net.
+cached 1 ns1.arin.net.
+tx 1 1 z.arin.net. arin.net. c7051a6c 3ff3c202 cc3dd832 c7d4006c c747006c
+rr c7051a6c 43200 1 u.arin.net. cc3dd832
+rr c7051a6c 43200 1 v.arin.net. 3ff3c202
+rr c7051a6c 43200 1 z.arin.net. c7d4003f
+rr c7051a6c 43200 1 ns1.arin.net. c7d4006c
+rr c7051a6c 43200 1 ns2.arin.net. c747006c
+rr c7051a6c 43200 1 ns3.arin.net. c7051a6c
+rr c7051a6c 43200 ns arin.net. v.arin.net.
+rr c7051a6c 43200 ns arin.net. ns2.arin.net.
+rr c7051a6c 43200 ns arin.net. ns3.arin.net.
+rr c7051a6c 43200 ns arin.net. u.arin.net.
+rr c7051a6c 43200 ns arin.net. ns1.arin.net.
+rr c7051a6c 43200 28 u.arin.net. 200105000014605000ad000000000001
+rr c7051a6c 43200 28 v.arin.net. 200105a0001000000000000000000002
+rr c7051a6c 43200 28 ns1.arin.net. 20010500001300000000000000000108
+rr c7051a6c 43200 28 ns2.arin.net. 20010500003100000000000000000108
+rr c7051a6c 43200 28 ns3.arin.net. 2001050000a900000000000000000108
+stats 5 7092 1 0
+cached ns net. e.gtld-servers.net.
+cached ns net. f.gtld-servers.net.
+cached ns net. m.gtld-servers.net.
+cached ns net. h.gtld-servers.net.
+cached ns net. l.gtld-servers.net.
+cached ns net. k.gtld-servers.net.
+cached ns net. c.gtld-servers.net.
+cached ns net. j.gtld-servers.net.
+cached ns net. a.gtld-servers.net.
+cached ns net. b.gtld-servers.net.
+cached ns net. g.gtld-servers.net.
+cached ns net. i.gtld-servers.net.
+cached ns net. d.gtld-servers.net.
+cached 1 e.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 j.gtld-servers.net.
+cached 1 a.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+tx 1 1 arin.authdns.ripe.net. net. c037531e c0304f1e c01f501e c0210e1e c005061e c023331e c00c5e1e c034b21e c02bac1e c02a5d1e c01a5c1e c036701e c029a21e
+rr c037531e 172800 1 sec3.apnic.net. ca0c1c8c
+rr c037531e 172800 1 tinnie.arin.net. c7d40035
+rr c037531e 172800 1 c1.authdns.ripe.net. a29f18d7
+rr c037531e 172800 1 c2.authdns.ripe.net. a29f1999
+rr c037531e 172800 1 manus.authdns.ripe.net. c1000907
+rr c037531e 172800 ns ripe.net. sec3.apnic.net.
+rr c037531e 172800 ns ripe.net. tinnie.arin.net.
+rr c037531e 172800 ns ripe.net. sns-pb.isc.org.
+rr c037531e 172800 ns ripe.net. manus.authdns.ripe.net.
+rr c037531e 172800 ns ripe.net. c1.authdns.ripe.net.
+rr c037531e 172800 ns ripe.net. c2.authdns.ripe.net.
+rr c037531e 172800 28 sec3.apnic.net. 20010dc0000100004777000000000140
+rr c037531e 172800 28 tinnie.arin.net. 200105000013000000000000c7d40035
+rr c037531e 172800 28 c1.authdns.ripe.net. 2400cb002049000100000000a29f18d7
+rr c037531e 172800 28 c2.authdns.ripe.net. 2400cb002049000100000000a29f1999
+rr c037531e 172800 28 manus.authdns.ripe.net. 2001067c00e000000000000000000007
+stats 5 7767 1 0
+cached 1 sec3.apnic.net.
+cached 1 tinnie.arin.net.
+tx 2 1 sns-pb.isc.org. . 80080a5a c0cbe60a ca0c1b21 c6290004 c021040c c0702404 c0249411 c0e44fc9 803f0235 c1000e81 c03a801e c707532a c00505f1
+rr c0cbe60a 172800 1 b0.org.afilias-nst.org. c7133601
+rr c0cbe60a 172800 1 b2.org.afilias-nst.org. c7f97801
+rr c0cbe60a 172800 1 d0.org.afilias-nst.org. c7133901
+rr c0cbe60a 172800 1 a0.org.afilias-nst.info. c7133801
+rr c0cbe60a 172800 1 a2.org.afilias-nst.info. c7f97001
+rr c0cbe60a 172800 1 c0.org.afilias-nst.info. c7133501
+rr c0cbe60a 172800 ns org. a0.org.afilias-nst.info.
+rr c0cbe60a 172800 ns org. a2.org.afilias-nst.info.
+rr c0cbe60a 172800 ns org. b0.org.afilias-nst.org.
+rr c0cbe60a 172800 ns org. b2.org.afilias-nst.org.
+rr c0cbe60a 172800 ns org. c0.org.afilias-nst.info.
+rr c0cbe60a 172800 ns org. d0.org.afilias-nst.org.
+rr c0cbe60a 172800 28 b0.org.afilias-nst.org. 20010500000c00000000000000000001
+rr c0cbe60a 172800 28 b2.org.afilias-nst.org. 20010500004800000000000000000001
+rr c0cbe60a 172800 28 d0.org.afilias-nst.org. 20010500000f00000000000000000001
+rr c0cbe60a 172800 28 a0.org.afilias-nst.info. 20010500000e00000000000000000001
+rr c0cbe60a 172800 28 a2.org.afilias-nst.info. 20010500004000000000000000000001
+rr c0cbe60a 172800 28 c0.org.afilias-nst.info. 20010500000b00000000000000000001
+stats 5 8631 1 0
+cached 1 a0.org.afilias-nst.info.
+cached 1 a2.org.afilias-nst.info.
+cached 1 b0.org.afilias-nst.org.
+cached 1 b2.org.afilias-nst.org.
+cached 1 c0.org.afilias-nst.info.
+cached 1 d0.org.afilias-nst.org.
+tx 2 1 sns-pb.isc.org. org. c7f97001 c7133601 c7133901 c7133501 c7133801 c7f97801
+rr c7f97001 86400 1 ams.sns-pb.isc.org. c706011e
+rr c7f97001 86400 1 ord.sns-pb.isc.org. c706001e
+rr c7f97001 86400 1 sfba.sns-pb.isc.org. 95144003
+rr c7f97001 86400 ns isc.org. ns.isc.afilias-nst.info.
+rr c7f97001 86400 ns isc.org. ams.sns-pb.isc.org.
+rr c7f97001 86400 ns isc.org. ord.sns-pb.isc.org.
+rr c7f97001 86400 ns isc.org. sfba.sns-pb.isc.org.
+rr c7f97001 86400 28 ams.sns-pb.isc.org. 20010500006000000000000000000030
+rr c7f97001 86400 28 ord.sns-pb.isc.org. 20010500007100000000000000000030
+rr c7f97001 86400 28 sfba.sns-pb.isc.org. 200104f8000000020000000000000019
+stats 5 9068 1 0
+tx 3 1 ns.isc.afilias-nst.info. . ca0c1b21 80080a5a c0249411 c6290004 803f0235 c03a801e c0702404 c707532a c0e44fc9 c021040c c0cbe60a c00505f1 c1000e81
+rr ca0c1b21 172800 1 b0.info.afilias-nst.org. c7fe3001
+rr ca0c1b21 172800 1 b2.info.afilias-nst.org. c7f97901
+rr ca0c1b21 172800 1 d0.info.afilias-nst.org. c7fe3201
+rr ca0c1b21 172800 1 a0.info.afilias-nst.info. c7fe1f01
+rr ca0c1b21 172800 1 a2.info.afilias-nst.info. c7f97101
+rr ca0c1b21 172800 1 c0.info.afilias-nst.info. c7fe3101
+rr ca0c1b21 172800 ns info. b0.info.afilias-nst.org.
+rr ca0c1b21 172800 ns info. d0.info.afilias-nst.org.
+rr ca0c1b21 172800 ns info. a2.info.afilias-nst.info.
+rr ca0c1b21 172800 ns info. a0.info.afilias-nst.info.
+rr ca0c1b21 172800 ns info. b2.info.afilias-nst.org.
+rr ca0c1b21 172800 ns info. c0.info.afilias-nst.info.
+rr ca0c1b21 172800 28 b0.info.afilias-nst.org. 20010500001a00000000000000000001
+rr ca0c1b21 172800 28 b2.info.afilias-nst.org. 20010500004900000000000000000001
+rr ca0c1b21 172800 28 d0.info.afilias-nst.org. 20010500001c00000000000000000001
+rr ca0c1b21 172800 28 a0.info.afilias-nst.info. 20010500001900000000000000000001
+rr ca0c1b21 172800 28 a2.info.afilias-nst.info. 20010500004100000000000000000001
+rr ca0c1b21 172800 28 c0.info.afilias-nst.info. 20010500001b00000000000000000001
+stats 5 9951 1 0
+cached 1 b0.info.afilias-nst.org.
+cached 1 d0.info.afilias-nst.org.
+cached 1 a2.info.afilias-nst.info.
+cached 1 a0.info.afilias-nst.info.
+cached 1 b2.info.afilias-nst.org.
+cached 1 c0.info.afilias-nst.info.
+tx 3 1 ns.isc.afilias-nst.info. info. c7f97901 c7f97101 c7fe3201 c7fe3001 c7fe3101 c7fe1f01
+rr c7f97901 86400 1 a0.dig.afilias-nst.info. 41160601
+rr c7f97901 86400 1 b0.dig.afilias-nst.info. 41160701
+rr c7f97901 86400 1 c0.dig.afilias-nst.info. 41160801
+rr c7f97901 86400 1 d0.dig.afilias-nst.info. 41160901
+rr c7f97901 86400 ns afilias-nst.info. a0.dig.afilias-nst.info.
+rr c7f97901 86400 ns afilias-nst.info. b0.dig.afilias-nst.info.
+rr c7f97901 86400 ns afilias-nst.info. c0.dig.afilias-nst.info.
+rr c7f97901 86400 ns afilias-nst.info. d0.dig.afilias-nst.info.
+rr c7f97901 86400 28 a0.dig.afilias-nst.info. 2a018840000600000000000000000001
+rr c7f97901 86400 28 b0.dig.afilias-nst.info. 2a018840000700000000000000000001
+rr c7f97901 86400 28 c0.dig.afilias-nst.info. 2a018840000800000000000000000001
+rr c7f97901 86400 28 d0.dig.afilias-nst.info. 2a018840000900000000000000000001
+stats 5 10555 1 0
+cached 1 a0.dig.afilias-nst.info.
+cached 1 b0.dig.afilias-nst.info.
+cached 1 c0.dig.afilias-nst.info.
+cached 1 d0.dig.afilias-nst.info.
+tx 3 1 ns.isc.afilias-nst.info. afilias-nst.info. 41160801 41160901 41160601 41160701
+rr 41160801 86400 1 a0.dig.afilias-nst.info. 41160601
+rr 41160801 86400 1 b0.dig.afilias-nst.info. 41160701
+rr 41160801 86400 1 c0.dig.afilias-nst.info. 41160801
+rr 41160801 86400 1 d0.dig.afilias-nst.info. 41160901
+rr 41160801 3600 1 ns.isc.afilias-nst.info. c7fe3ffe
+rr 41160801 3600 ns afilias-nst.info. d0.dig.afilias-nst.info.
+rr 41160801 3600 ns afilias-nst.info. b0.dig.afilias-nst.info.
+rr 41160801 3600 ns afilias-nst.info. a0.dig.afilias-nst.info.
+rr 41160801 3600 ns afilias-nst.info. c0.dig.afilias-nst.info.
+rr 41160801 86400 28 a0.dig.afilias-nst.info. 2a018840000600000000000000000001
+rr 41160801 86400 28 b0.dig.afilias-nst.info. 2a018840000700000000000000000001
+rr 41160801 86400 28 c0.dig.afilias-nst.info. 2a018840000800000000000000000001
+rr 41160801 86400 28 d0.dig.afilias-nst.info. 2a018840000900000000000000000001
+stats 5 11210 1 0
+cached 1 ams.sns-pb.isc.org.
+cached 1 ord.sns-pb.isc.org.
+cached 1 sfba.sns-pb.isc.org.
+tx 2 1 sns-pb.isc.org. isc.org. c706001e 95144003 c706011e c7fe3ffe
+rr c706001e 7200 1 sns-pb.isc.org. c0050401
+rr c706001e 7200 1 ams.sns-pb.isc.org. c706011e
+rr c706001e 7200 1 ord.sns-pb.isc.org. c706001e
+rr c706001e 7200 1 sfba.sns-pb.isc.org. 95144003
+rr c706001e 7200 ns isc.org. ns.isc.afilias-nst.info.
+rr c706001e 7200 ns isc.org. ord.sns-pb.isc.org.
+rr c706001e 7200 ns isc.org. ams.sns-pb.isc.org.
+rr c706001e 7200 ns isc.org. sfba.sns-pb.isc.org.
+rr c706001e 7200 28 ams.sns-pb.isc.org. 20010500006000000000000000000030
+rr c706001e 7200 28 ord.sns-pb.isc.org. 20010500007100000000000000000030
+rr c706001e 7200 28 sfba.sns-pb.isc.org. 200104f8000000020000000000000019
+stats 5 11689 1 0
+cached 1 manus.authdns.ripe.net.
+cached 1 c1.authdns.ripe.net.
+drop 5 input/output error
+query 6 7f000001:8d08:b1b9 12 139.209.41.198.in-addr.arpa.
+cached ns 198.in-addr.arpa. r.arin.net.
+cached ns 198.in-addr.arpa. u.arin.net.
+cached ns 198.in-addr.arpa. x.arin.net.
+cached ns 198.in-addr.arpa. y.arin.net.
+cached ns 198.in-addr.arpa. z.arin.net.
+cached ns 198.in-addr.arpa. arin.authdns.ripe.net.
+cached 1 r.arin.net.
+cached 1 u.arin.net.
+cached 1 x.arin.net.
+cached 1 y.arin.net.
+cached 1 z.arin.net.
+cached ns ripe.net. sec3.apnic.net.
+cached ns ripe.net. tinnie.arin.net.
+cached ns ripe.net. sns-pb.isc.org.
+cached ns ripe.net. manus.authdns.ripe.net.
+cached ns ripe.net. c1.authdns.ripe.net.
+cached ns ripe.net. c2.authdns.ripe.net.
+cached 1 sec3.apnic.net.
+cached 1 tinnie.arin.net.
+cached 1 sns-pb.isc.org.
+cached 1 manus.authdns.ripe.net.
+cached 1 c1.authdns.ripe.net.
+cached 1 c2.authdns.ripe.net.
+tx 1 1 arin.authdns.ripe.net. ripe.net. c1000907 c0050401 ca0c1c8c a29f18d7 a29f1999 c7d40035
+rr c1000907 3600 1 c1.authdns.ripe.net. a29f18d7
+rr c1000907 3600 1 c2.authdns.ripe.net. a29f1999
+rr c1000907 3600 1 arin.authdns.ripe.net. c100090a
+rr c1000907 3600 1 manus.authdns.ripe.net. c1000907
+rr c1000907 3600 ns ripe.net. c1.authdns.ripe.net.
+rr c1000907 3600 ns ripe.net. c2.authdns.ripe.net.
+rr c1000907 3600 ns ripe.net. sec3.apnic.net.
+rr c1000907 3600 ns ripe.net. manus.authdns.ripe.net.
+rr c1000907 3600 ns ripe.net. sns-pb.isc.org.
+rr c1000907 3600 ns ripe.net. tinnie.arin.net.
+rr c1000907 3600 28 c1.authdns.ripe.net. 2400cb002049000100000000a29f18d7
+rr c1000907 3600 28 c2.authdns.ripe.net. 2400cb002049000100000000a29f1999
+rr c1000907 3600 28 manus.authdns.ripe.net. 2001067c00e000000000000000000007
+stats 6 12215 1 0
+tx 0 12 139.209.41.198.in-addr.arpa. 198.in-addr.arpa. cc3dd832 c7d4003f c052861e c747003f c7b4b43f c100090a
+rr cc3dd832 86400 ns 209.41.198.in-addr.arpa. ns1.cloudflare.com.
+rr cc3dd832 86400 ns 209.41.198.in-addr.arpa. ns2.cloudflare.com.
+stats 6 12302 1 0
+cached ns com. j.gtld-servers.net.
+cached ns com. a.gtld-servers.net.
+cached ns com. f.gtld-servers.net.
+cached ns com. l.gtld-servers.net.
+cached ns com. b.gtld-servers.net.
+cached ns com. g.gtld-servers.net.
+cached ns com. c.gtld-servers.net.
+cached ns com. k.gtld-servers.net.
+cached ns com. m.gtld-servers.net.
+cached ns com. h.gtld-servers.net.
+cached ns com. e.gtld-servers.net.
+cached ns com. i.gtld-servers.net.
+cached ns com. d.gtld-servers.net.
+cached 1 j.gtld-servers.net.
+cached 1 a.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 e.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+tx 1 1 ns1.cloudflare.com. com. c02a5d1e c005061e c02bac1e c029a21e c0210e1e c023331e c0304f1e c036701e c01a5c1e c01f501e c037531e c034b21e c00c5e1e
+rr c02a5d1e 172800 1 ns3.cloudflare.com. a29f0021
+rr c02a5d1e 172800 1 ns4.cloudflare.com. a29f0121
+rr c02a5d1e 172800 1 ns5.cloudflare.com. a29f0209
+rr c02a5d1e 172800 1 ns6.cloudflare.com. a29f030b
+rr c02a5d1e 172800 1 ns6.cloudflare.com. a29f0506
+rr c02a5d1e 172800 1 ns7.cloudflare.com. a29f0408
+rr c02a5d1e 172800 ns cloudflare.com. ns3.cloudflare.com.
+rr c02a5d1e 172800 ns cloudflare.com. ns5.cloudflare.com.
+rr c02a5d1e 172800 ns cloudflare.com. ns4.cloudflare.com.
+rr c02a5d1e 172800 ns cloudflare.com. ns6.cloudflare.com.
+rr c02a5d1e 172800 ns cloudflare.com. ns7.cloudflare.com.
+rr c02a5d1e 172800 28 ns3.cloudflare.com. 2400cb002049000100000000a29f0021
+rr c02a5d1e 172800 28 ns4.cloudflare.com. 2400cb002049000100000000a29f0121
+rr c02a5d1e 172800 28 ns5.cloudflare.com. 2400cb002049000100000000a29f0209
+rr c02a5d1e 172800 28 ns6.cloudflare.com. 2400cb002049000100000000a29f030b
+rr c02a5d1e 172800 28 ns7.cloudflare.com. 2400cb002049000100000000a29f0408
+stats 6 12974 1 0
+cached 1 ns3.cloudflare.com.
+cached 1 ns5.cloudflare.com.
+cached 1 ns4.cloudflare.com.
+cached 1 ns6.cloudflare.com.
+cached 1 ns7.cloudflare.com.
+tx 1 1 ns1.cloudflare.com. cloudflare.com. a29f0408 a29f0121 a29f030b a29f0021 a29f0506 a29f0209
+rr a29f0408 86400 1 ns1.cloudflare.com. adf53a64
+stats 6 13020 1 0
+cached ns cloudflare.com. ns3.cloudflare.com.
+cached ns cloudflare.com. ns5.cloudflare.com.
+cached ns cloudflare.com. ns4.cloudflare.com.
+cached ns cloudflare.com. ns6.cloudflare.com.
+cached ns cloudflare.com. ns7.cloudflare.com.
+cached 1 ns3.cloudflare.com.
+cached 1 ns5.cloudflare.com.
+cached 1 ns4.cloudflare.com.
+cached 1 ns6.cloudflare.com.
+cached 1 ns7.cloudflare.com.
+tx 1 1 ns2.cloudflare.com. cloudflare.com. a29f030b a29f0506 a29f0209 a29f0121 a29f0021 a29f0408
+rr a29f030b 86400 1 ns2.cloudflare.com. adf53b64
+stats 6 13066 1 0
+tx 0 12 139.209.41.198.in-addr.arpa. 209.41.198.in-addr.arpa. adf53a64 adf53b64
+nodata adf53a64 3600 12 139.209.41.198.in-addr.arpa.
+stats 6 13117 1 0
+sent 6 45
+query 7 7f000001:eb79:02c4 1 google.com.
+cached 1 google.com.
+sent 7 44
+query 8 7f000001:e5d9:0e59 12 46.0.217.172.in-addr.arpa.
+cached ns in-addr.arpa. a.in-addr-servers.arpa.
+cached ns in-addr.arpa. b.in-addr-servers.arpa.
+cached ns in-addr.arpa. c.in-addr-servers.arpa.
+cached ns in-addr.arpa. d.in-addr-servers.arpa.
+cached ns in-addr.arpa. e.in-addr-servers.arpa.
+cached ns in-addr.arpa. f.in-addr-servers.arpa.
+cached 1 a.in-addr-servers.arpa.
+cached 1 b.in-addr-servers.arpa.
+cached 1 c.in-addr-servers.arpa.
+cached 1 d.in-addr-servers.arpa.
+cached 1 e.in-addr-servers.arpa.
+cached 1 f.in-addr-servers.arpa.
+tx 0 12 46.0.217.172.in-addr.arpa. in-addr.arpa. c1000901 cb775665 c7d40049 c7fdb7b7 c80a3c35 c4d8a90a
+rr c1000901 86400 ns 172.in-addr.arpa. r.arin.net.
+rr c1000901 86400 ns 172.in-addr.arpa. u.arin.net.
+rr c1000901 86400 ns 172.in-addr.arpa. x.arin.net.
+rr c1000901 86400 ns 172.in-addr.arpa. y.arin.net.
+rr c1000901 86400 ns 172.in-addr.arpa. z.arin.net.
+rr c1000901 86400 ns 172.in-addr.arpa. arin.authdns.ripe.net.
+stats 8 13240 1 0
+cached 1 r.arin.net.
+cached 1 u.arin.net.
+cached 1 x.arin.net.
+cached 1 y.arin.net.
+cached 1 z.arin.net.
+cached 1 arin.authdns.ripe.net.
+tx 0 12 46.0.217.172.in-addr.arpa. 172.in-addr.arpa. c100090a c052861e c7b4b43f c747003f cc3dd832 c7d4003f
+rr c100090a 86400 ns 217.172.in-addr.arpa. ns2.google.com.
+rr c100090a 86400 ns 217.172.in-addr.arpa. ns1.google.com.
+rr c100090a 86400 ns 217.172.in-addr.arpa. ns3.google.com.
+rr c100090a 86400 ns 217.172.in-addr.arpa. ns4.google.com.
+stats 8 13348 1 0
+cached 1 ns2.google.com.
+cached 1 ns1.google.com.
+cached 1 ns3.google.com.
+cached 1 ns4.google.com.
+tx 0 12 46.0.217.172.in-addr.arpa. 217.172.in-addr.arpa. d8ef220a d8ef200a d8ef260a d8ef240a
+rr d8ef220a 86400 ptr 46.0.217.172.in-addr.arpa. lga15s43-in-f14.1e100.net.
+stats 8 13424 1 0
+sent 8 82
+query 9 7f000001:98a6:5b04 1 aol.com.
+cached ns com. j.gtld-servers.net.
+cached ns com. a.gtld-servers.net.
+cached ns com. f.gtld-servers.net.
+cached ns com. l.gtld-servers.net.
+cached ns com. b.gtld-servers.net.
+cached ns com. g.gtld-servers.net.
+cached ns com. c.gtld-servers.net.
+cached ns com. k.gtld-servers.net.
+cached ns com. m.gtld-servers.net.
+cached ns com. h.gtld-servers.net.
+cached ns com. e.gtld-servers.net.
+cached ns com. i.gtld-servers.net.
+cached ns com. d.gtld-servers.net.
+cached 1 j.gtld-servers.net.
+cached 1 a.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 e.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+tx 0 1 aol.com. com. c005061e c00c5e1e c029a21e c037531e c036701e c01a5c1e c0210e1e c034b21e c023331e c01f501e c0304f1e c02bac1e c02a5d1e
+rr c005061e 172800 1 dns-01.ns.aol.com. 400c3384
+rr c005061e 172800 1 dns-02.ns.aol.com. cdbc9de8
+rr c005061e 172800 1 dns-06.ns.aol.com. cfc84950
+rr c005061e 172800 1 dns-07.ns.aol.com. 40ec016b
+rr c005061e 172800 ns aol.com. dns-02.ns.aol.com.
+rr c005061e 172800 ns aol.com. dns-01.ns.aol.com.
+rr c005061e 172800 ns aol.com. dns-06.ns.aol.com.
+rr c005061e 172800 ns aol.com. dns-07.ns.aol.com.
+stats 9 13711 1 0
+cached 1 dns-02.ns.aol.com.
+cached 1 dns-01.ns.aol.com.
+cached 1 dns-06.ns.aol.com.
+cached 1 dns-07.ns.aol.com.
+tx 0 1 aol.com. aol.com. cdbc9de8 40ec016b 400c3384 cfc84950
+rr cdbc9de8 3600 1 aol.com. 95ae6b61
+rr cdbc9de8 3600 1 aol.com. cfc84a26
+rr cdbc9de8 3600 1 aol.com. 400c59ba
+rr cdbc9de8 3600 1 aol.com. 400c4f39
+rr cdbc9de8 3600 1 aol.com. 95ae6e66
+rr cdbc9de8 3600 1 dns-01.ns.aol.com. 400c3384
+rr cdbc9de8 3600 1 dns-02.ns.aol.com. cdbc9de8
+rr cdbc9de8 3600 1 dns-06.ns.aol.com. cfc84950
+rr cdbc9de8 3600 1 dns-07.ns.aol.com. 40ec016b
+rr cdbc9de8 3600 ns aol.com. dns-01.ns.aol.com.
+rr cdbc9de8 3600 ns aol.com. dns-02.ns.aol.com.
+rr cdbc9de8 3600 ns aol.com. dns-07.ns.aol.com.
+rr cdbc9de8 3600 ns aol.com. dns-06.ns.aol.com.
+stats 9 14049 1 0
+sent 9 105
+query 10 7f000001:c8ee:a766 1 yahoo.com.
+cached ns com. j.gtld-servers.net.
+cached ns com. a.gtld-servers.net.
+cached ns com. f.gtld-servers.net.
+cached ns com. l.gtld-servers.net.
+cached ns com. b.gtld-servers.net.
+cached ns com. g.gtld-servers.net.
+cached ns com. c.gtld-servers.net.
+cached ns com. k.gtld-servers.net.
+cached ns com. m.gtld-servers.net.
+cached ns com. h.gtld-servers.net.
+cached ns com. e.gtld-servers.net.
+cached ns com. i.gtld-servers.net.
+cached ns com. d.gtld-servers.net.
+cached 1 j.gtld-servers.net.
+cached 1 a.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 e.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+tx 0 1 yahoo.com. com. c02bac1e c029a21e c02a5d1e c01a5c1e c037531e c01f501e c005061e c023331e c00c5e1e c036701e c034b21e c0210e1e c0304f1e
+rr c02bac1e 172800 1 ns1.yahoo.com. 44b48310
+rr c02bac1e 172800 1 ns2.yahoo.com. 448eff10
+rr c02bac1e 172800 1 ns3.yahoo.com. cb54dd35
+rr c02bac1e 172800 1 ns4.yahoo.com. 628a0b9d
+rr c02bac1e 172800 1 ns5.yahoo.com. 77a0f77c
+rr c02bac1e 172800 ns yahoo.com. ns1.yahoo.com.
+rr c02bac1e 172800 ns yahoo.com. ns5.yahoo.com.
+rr c02bac1e 172800 ns yahoo.com. ns2.yahoo.com.
+rr c02bac1e 172800 ns yahoo.com. ns3.yahoo.com.
+rr c02bac1e 172800 ns yahoo.com. ns4.yahoo.com.
+rr c02bac1e 172800 28 ns1.yahoo.com. 20014998013000000000000000001001
+rr c02bac1e 172800 28 ns2.yahoo.com. 20014998014000000000000000001002
+rr c02bac1e 172800 28 ns3.yahoo.com. 2406860000b8fe030000000000001003
+stats 10 14527 1 0
+cached 1 ns1.yahoo.com.
+cached 1 ns5.yahoo.com.
+cached 1 ns2.yahoo.com.
+cached 1 ns3.yahoo.com.
+cached 1 ns4.yahoo.com.
+tx 0 1 yahoo.com. yahoo.com. 628a0b9d 44b48310 448eff10 77a0f77c cb54dd35
+rr 628a0b9d 1800 1 yahoo.com. 628afd6d
+rr 628a0b9d 1800 1 yahoo.com. cebe242d
+rr 628a0b9d 1800 1 yahoo.com. 628bb718
+rr 628a0b9d 604800 1 ns1.yahoo.com. 44b48310
+rr 628a0b9d 604800 1 ns2.yahoo.com. 448eff10
+rr 628a0b9d 604800 1 ns3.yahoo.com. cb54dd35
+rr 628a0b9d 604800 1 ns4.yahoo.com. 628a0b9d
+rr 628a0b9d 604800 1 ns5.yahoo.com. 77a0f77c
+rr 628a0b9d 172800 1 ns6.yahoo.com. 7965908b
+rr 628a0b9d 172800 ns yahoo.com. ns1.yahoo.com.
+rr 628a0b9d 172800 ns yahoo.com. ns5.yahoo.com.
+rr 628a0b9d 172800 ns yahoo.com. ns3.yahoo.com.
+rr 628a0b9d 172800 ns yahoo.com. ns2.yahoo.com.
+rr 628a0b9d 172800 ns yahoo.com. ns6.yahoo.com.
+rr 628a0b9d 172800 ns yahoo.com. ns4.yahoo.com.
+rr 628a0b9d 86400 28 ns1.yahoo.com. 20014998013000000000000000001001
+rr 628a0b9d 86400 28 ns2.yahoo.com. 20014998014000000000000000001002
+rr 628a0b9d 86400 28 ns3.yahoo.com. 2406860000b8fe030000000000001003
+rr 628a0b9d 1800 28 ns6.yahoo.com. 24062000010800040000000000001006
+stats 10 15161 1 0
+sent 10 75
+query 11 7f000001:d5c2:0b57 12 109.253.138.98.in-addr.arpa.
+cached ns in-addr.arpa. a.in-addr-servers.arpa.
+cached ns in-addr.arpa. b.in-addr-servers.arpa.
+cached ns in-addr.arpa. c.in-addr-servers.arpa.
+cached ns in-addr.arpa. d.in-addr-servers.arpa.
+cached ns in-addr.arpa. e.in-addr-servers.arpa.
+cached ns in-addr.arpa. f.in-addr-servers.arpa.
+cached 1 a.in-addr-servers.arpa.
+cached 1 b.in-addr-servers.arpa.
+cached 1 c.in-addr-servers.arpa.
+cached 1 d.in-addr-servers.arpa.
+cached 1 e.in-addr-servers.arpa.
+cached 1 f.in-addr-servers.arpa.
+tx 0 12 109.253.138.98.in-addr.arpa. in-addr.arpa. c7d40049 c80a3c35 c1000901 c7fdb7b7 c4d8a90a cb775665
+rr c7d40049 86400 ns 98.in-addr.arpa. x.arin.net.
+rr c7d40049 86400 ns 98.in-addr.arpa. arin.authdns.ripe.net.
+rr c7d40049 86400 ns 98.in-addr.arpa. y.arin.net.
+rr c7d40049 86400 ns 98.in-addr.arpa. r.arin.net.
+rr c7d40049 86400 ns 98.in-addr.arpa. z.arin.net.
+rr c7d40049 86400 ns 98.in-addr.arpa. u.arin.net.
+stats 11 15283 1 0
+cached 1 x.arin.net.
+cached 1 arin.authdns.ripe.net.
+cached 1 y.arin.net.
+cached 1 r.arin.net.
+cached 1 z.arin.net.
+cached 1 u.arin.net.
+tx 0 12 109.253.138.98.in-addr.arpa. 98.in-addr.arpa. c747003f c7b4b43f c7d4003f c100090a cc3dd832 c052861e
+rr c747003f 86400 ns 138.98.in-addr.arpa. ns3.yahoo.com.
+rr c747003f 86400 ns 138.98.in-addr.arpa. ns1.yahoo.com.
+rr c747003f 86400 ns 138.98.in-addr.arpa. ns2.yahoo.com.
+rr c747003f 86400 ns 138.98.in-addr.arpa. ns4.yahoo.com.
+rr c747003f 86400 ns 138.98.in-addr.arpa. ns5.yahoo.com.
+stats 11 15401 1 0
+cached 1 ns3.yahoo.com.
+cached 1 ns1.yahoo.com.
+cached 1 ns2.yahoo.com.
+cached 1 ns4.yahoo.com.
+cached 1 ns5.yahoo.com.
+tx 0 12 109.253.138.98.in-addr.arpa. 138.98.in-addr.arpa. 44b48310 77a0f77c 628a0b9d cb54dd35 448eff10
+rr 44b48310 172800 ns 253.138.98.in-addr.arpa. ns1.yahoo.com.
+rr 44b48310 172800 ns 253.138.98.in-addr.arpa. ns3.yahoo.com.
+rr 44b48310 172800 ns 253.138.98.in-addr.arpa. ns4.yahoo.com.
+rr 44b48310 172800 ns 253.138.98.in-addr.arpa. ns5.yahoo.com.
+rr 44b48310 172800 ns 253.138.98.in-addr.arpa. ns2.yahoo.com.
+rr 44b48310 1800 ptr 109.253.138.98.in-addr.arpa. ir1.fp.vip.ne1.yahoo.com.
+stats 11 15600 1 0
+sent 11 83
+query 12 7f000001:ea8a:577d 1 google.com.
+cached 1 google.com.
+sent 12 44
+query 13 7f000001:adc9:e0a6 28 google.com.
+cached 28 google.com.
+sent 13 56
+query 14 7f000001:9d94:d273 15 google.com.
+cached 15 google.com.
+sent 14 136
+query 15 7f000001:dde7:24dd 1 google.com.
+cached 1 google.com.
+sent 15 44
+query 16 7f000001:d7e3:7b64 28 google.com.
+cached 28 google.com.
+sent 16 56
+query 17 7f000001:b8ca:ab1f 15 google.com.
+cached 15 google.com.
+sent 17 136
+query 18 7f000001:c313:04ba 1 google.com.
+cached 1 google.com.
+sent 18 44
+query 19 7f000001:e084:5459 28 google.com.
+cached 28 google.com.
+sent 19 56
+query 20 7f000001:c7f5:e26c 15 google.com.
+cached 15 google.com.
+sent 20 136
+query 21 7f000001:dbbf:98bf 1 google.com.
+cached 1 google.com.
+sent 21 44
+query 22 7f000001:c040:602a 28 google.com.
+cached 28 google.com.
+sent 22 56
+query 23 7f000001:d629:5a65 15 google.com.
+cached 15 google.com.
+sent 23 136
+query 24 7f000001:d525:71db 1 google.com.
+cached 1 google.com.
+sent 24 44
+query 25 7f000001:d75c:30b7 28 google.com.
+cached 28 google.com.
+sent 25 56
+query 26 7f000001:a9b6:1472 15 google.com.
+cached 15 google.com.
+sent 26 136
+query 27 7f000001:ddba:75ec 1 google.com.
+cached 1 google.com.
+sent 27 44
+query 28 7f000001:dbe5:0287 28 google.com.
+cached 28 google.com.
+sent 28 56
+query 29 7f000001:d1e0:21bb 15 google.com.
+cached 15 google.com.
+sent 29 136
+query 30 7f000001:e4e3:cbf3 1 google.com.
+cached 1 google.com.
+sent 30 44
+query 31 7f000001:d25f:b624 28 google.com.
+cached 28 google.com.
+sent 31 56
+query 32 7f000001:8337:94df 15 google.com.
+cached 15 google.com.
+sent 32 136
+query 33 7f000001:c28c:cc81 1 google.com.
+cached 1 google.com.
+sent 33 44
+query 34 7f000001:ae52:7ba7 28 google.com.
+cached 28 google.com.
+sent 34 56
+query 35 7f000001:e177:7065 15 google.com.
+cached 15 google.com.
+sent 35 136
+query 36 7f000001:c6e5:e758 1 google.com.
+cached 1 google.com.
+sent 36 44
+query 37 7f000001:e870:7b0a 28 google.com.
+cached 28 google.com.
+sent 37 56
+query 38 7f000001:b9cd:9f83 15 google.com.
+cached 15 google.com.
+sent 38 136
+query 39 7f000001:cfc1:f262 1 google.com.
+cached 1 google.com.
+sent 39 44
+query 40 7f000001:dd9a:5e8f 28 google.com.
+cached 28 google.com.
+sent 40 56
+query 41 7f000001:c7a6:9e1f 15 google.com.
+cached 15 google.com.
+sent 41 136
+query 42 7f000001:8170:99d2 1 google.com.
+cached 1 google.com.
+sent 42 44
+query 43 7f000001:e12a:eb4b 28 google.com.
+cached 28 google.com.
+sent 43 56
+query 44 7f000001:c0a0:0177 15 google.com.
+cached 15 google.com.
+sent 44 136
+query 45 7f000001:a9d0:fa6b 1 google.com.
+cached 1 google.com.
+sent 45 44
+query 46 7f000001:9eb4:2e13 28 google.com.
+cached 28 google.com.
+sent 46 56
+query 47 7f000001:92da:d180 15 google.com.
+cached 15 google.com.
+sent 47 136
+query 48 7f000001:9c97:1c92 1 google.com.
+cached 1 google.com.
+sent 48 44
+query 49 7f000001:8b20:d398 28 google.com.
+cached 28 google.com.
+sent 49 56
+query 50 7f000001:8378:5e9f 15 google.com.
+cached 15 google.com.
+sent 50 136
+query 51 7f000001:cd74:4dc9 1 google.com.
+cached 1 google.com.
+sent 51 44
+query 52 7f000001:9ed1:518d 28 google.com.
+cached 28 google.com.
+sent 52 56
+query 53 7f000001:9a09:4372 15 google.com.
+cached 15 google.com.
+sent 53 136
+query 54 7f000001:dd27:af20 1 google.com.
+cached 1 google.com.
+sent 54 44
+query 55 7f000001:af4d:4273 28 google.com.
+cached 28 google.com.
+sent 55 56
+query 56 7f000001:85ca:d670 15 google.com.
+cached 15 google.com.
+sent 56 136
+query 57 7f000001:abca:316d 1 google.com.
+cached 1 google.com.
+sent 57 44
+query 58 7f000001:9824:6a90 28 google.com.
+cached 28 google.com.
+sent 58 56
+query 59 7f000001:a89c:9309 15 google.com.
+cached 15 google.com.
+sent 59 136
+query 60 7f000001:a3b8:592b 1 google.com.
+cached 1 google.com.
+sent 60 44
+query 61 7f000001:c366:7f71 28 google.com.
+cached 28 google.com.
+sent 61 56
+query 62 7f000001:dffa:2450 15 google.com.
+cached 15 google.com.
+sent 62 136
+query 63 7f000001:8187:35e7 1 google.com.
+cached 1 google.com.
+sent 63 44
+query 64 7f000001:9ffa:a467 28 google.com.
+cached 28 google.com.
+sent 64 56
+query 65 7f000001:c596:e2aa 15 google.com.
+cached 15 google.com.
+sent 65 136
+query 66 7f000001:d93b:6bbb 1 google.com.
+cached 1 google.com.
+sent 66 44
+query 67 7f000001:b9a2:f9cd 28 google.com.
+cached 28 google.com.
+sent 67 56
+query 68 7f000001:b8df:f8e9 15 google.com.
+cached 15 google.com.
+sent 68 136
+query 69 7f000001:bedf:2310 1 google.com.
+cached 1 google.com.
+sent 69 44
+query 70 7f000001:e56c:9961 28 google.com.
+cached 28 google.com.
+sent 70 56
+query 71 7f000001:8d4f:6087 15 google.com.
+cached 15 google.com.
+sent 71 136
+query 72 7f000001:a66f:364c 1 google.com.
+cached 1 google.com.
+sent 72 44
+query 73 7f000001:ba2d:3b4b 28 google.com.
+cached 28 google.com.
+sent 73 56
+query 74 7f000001:b868:adf7 15 google.com.
+cached 15 google.com.
+sent 74 136
+query 75 7f000001:b3b2:a3a7 1 google.com.
+cached 1 google.com.
+sent 75 44
+query 76 7f000001:a422:fd93 28 google.com.
+cached 28 google.com.
+sent 76 56
+query 77 7f000001:876b:d003 15 google.com.
+cached 15 google.com.
+sent 77 136
+query 78 7f000001:e2c3:695c 1 google.com.
+cached 1 google.com.
+sent 78 44
+query 79 7f000001:d1dd:45ba 28 google.com.
+cached 28 google.com.
+sent 79 56
+query 80 7f000001:b923:1e52 15 google.com.
+cached 15 google.com.
+sent 80 136
+query 81 7f000001:a5f7:0585 1 google.com.
+cached 1 google.com.
+sent 81 44
+query 82 7f000001:9723:1598 28 google.com.
+cached 28 google.com.
+sent 82 56
+query 83 7f000001:861d:42dc 15 google.com.
+cached 15 google.com.
+sent 83 136
+query 84 7f000001:cbe3:9f53 1 google.com.
+cached 1 google.com.
+sent 84 44
+query 85 7f000001:ae62:463e 28 google.com.
+cached 28 google.com.
+sent 85 56
+query 86 7f000001:c648:7f93 15 google.com.
+cached 15 google.com.
+sent 86 136
+query 87 7f000001:bb64:38a5 1 google.com.
+cached 1 google.com.
+sent 87 44
+query 88 7f000001:e097:ad53 28 google.com.
+cached 28 google.com.
+sent 88 56
+query 89 7f000001:c987:a948 15 google.com.
+cached 15 google.com.
+sent 89 136
+query 90 7f000001:e71b:1e36 1 google.com.
+cached 1 google.com.
+sent 90 44
+query 91 7f000001:c092:3143 28 google.com.
+cached 28 google.com.
+sent 91 56
+query 92 7f000001:d6f6:c430 15 google.com.
+cached 15 google.com.
+sent 92 136
+query 93 7f000001:9b04:4f72 1 google.com.
+cached 1 google.com.
+sent 93 44
+query 94 7f000001:903e:475a 28 google.com.
+cached 28 google.com.
+sent 94 56
+query 95 7f000001:b615:8333 15 google.com.
+cached 15 google.com.
+sent 95 136
+query 96 7f000001:925a:c0aa 1 google.com.
+cached 1 google.com.
+sent 96 44
+query 97 7f000001:d12d:2056 28 google.com.
+cached 28 google.com.
+sent 97 56
+query 98 7f000001:d22f:dfdb 15 google.com.
+cached 15 google.com.
+sent 98 136
+query 99 7f000001:b836:664d 1 google.com.
+cached 1 google.com.
+sent 99 44
+query 100 7f000001:a6c1:c19f 28 google.com.
+cached 28 google.com.
+sent 100 56
+query 101 7f000001:b3a7:5326 15 google.com.
+cached 15 google.com.
+sent 101 136
+query 102 7f000001:b61d:09b4 1 google.com.
+cached 1 google.com.
+sent 102 44
+query 103 7f000001:e381:4a0b 28 google.com.
+cached 28 google.com.
+sent 103 56
+query 104 7f000001:8a03:4b58 15 google.com.
+cached 15 google.com.
+sent 104 136
+query 105 7f000001:a04c:b0fe 1 google.com.
+cached 1 google.com.
+sent 105 44
+query 106 7f000001:84ea:ed2b 28 google.com.
+cached 28 google.com.
+sent 106 56
+query 107 7f000001:d24f:0132 15 google.com.
+cached 15 google.com.
+sent 107 136
+cached 1 ns2.p16.dynect.net.
+cached 1 ns3.p16.dynect.net.
+tx 0 1 codeload.github.com. github.com. d04e4610 cc0dfb10 d04e4710 cc0dfa10
+query 364 7f000001:9e39:a4ac 28 codeload.github.com.
+cached ns github.com. ns4.p16.dynect.net.
+cached ns github.com. ns1.p16.dynect.net.
+cached ns github.com. ns2.p16.dynect.net.
+cached ns github.com. ns3.p16.dynect.net.
+cached 1 ns4.p16.dynect.net.
+cached 1 ns1.p16.dynect.net.
+cached 1 ns2.p16.dynect.net.
+cached 1 ns3.p16.dynect.net.
+tx 0 28 codeload.github.com. github.com. d04e4610 cc0dfa10 d04e4710 cc0dfb10
+rr d04e4610 30 1 codeload.github.com. c01efd78
+rr d04e4610 86400 ns github.com. ns1.p16.dynect.net.
+rr d04e4610 86400 ns github.com. ns2.p16.dynect.net.
+rr d04e4610 86400 ns github.com. ns3.p16.dynect.net.
+rr d04e4610 86400 ns github.com. ns4.p16.dynect.net.
+stats 364 40919 2 0
+sent 363 53
+nodata d04e4610 60 28 codeload.github.com.
+stats 364 40962 1 0
+sent 364 37
+query 365 7f000001:c6b2:96e4 1 github.com.
+cached 1 github.com.
+sent 365 44
+query 366 7f000001:c6b2:97d3 28 github.com.
+cached ns github.com. ns1.p16.dynect.net.
+cached ns github.com. ns2.p16.dynect.net.
+cached ns github.com. ns3.p16.dynect.net.
+cached ns github.com. ns4.p16.dynect.net.
+cached 1 ns1.p16.dynect.net.
+cached 1 ns2.p16.dynect.net.
+cached 1 ns3.p16.dynect.net.
+cached 1 ns4.p16.dynect.net.
+tx 0 28 github.com. github.com. cc0dfb10 d04e4710 d04e4610 cc0dfa10
+nodata cc0dfb10 60 28 github.com.
+stats 366 40996 1 0
+sent 366 28
+query 367 7f000001:d5da:3503 1 changelogs.ubuntu.com.
+cached ns com. h.gtld-servers.net.
+cached ns com. b.gtld-servers.net.
+cached ns com. m.gtld-servers.net.
+cached ns com. a.gtld-servers.net.
+cached ns com. g.gtld-servers.net.
+cached ns com. l.gtld-servers.net.
+cached ns com. f.gtld-servers.net.
+cached ns com. i.gtld-servers.net.
+cached ns com. e.gtld-servers.net.
+cached ns com. c.gtld-servers.net.
+cached ns com. j.gtld-servers.net.
+cached ns com. d.gtld-servers.net.
+cached ns com. k.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+cached 1 a.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 e.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 j.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+tx 0 1 changelogs.ubuntu.com. com. c00c5e1e c005061e c0304f1e c01a5c1e c01f501e c034b21e c0210e1e c02a5d1e c029a21e c02bac1e c023331e c037531e c036701e
+query 368 7f000001:d5da:fb0d 28 changelogs.ubuntu.com.
+cached ns com. h.gtld-servers.net.
+cached ns com. b.gtld-servers.net.
+cached ns com. m.gtld-servers.net.
+cached ns com. a.gtld-servers.net.
+cached ns com. g.gtld-servers.net.
+cached ns com. l.gtld-servers.net.
+cached ns com. f.gtld-servers.net.
+cached ns com. i.gtld-servers.net.
+cached ns com. e.gtld-servers.net.
+cached ns com. c.gtld-servers.net.
+cached ns com. j.gtld-servers.net.
+cached ns com. d.gtld-servers.net.
+cached ns com. k.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+cached 1 a.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 e.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 j.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+tx 0 28 changelogs.ubuntu.com. com. c034b21e c005061e c0304f1e c00c5e1e c029a21e c02bac1e c01f501e c02a5d1e c0210e1e c037531e c036701e c023331e c01a5c1e
+rr c00c5e1e 172800 ns ubuntu.com. ns1.p27.dynect.net.
+rr c00c5e1e 172800 ns ubuntu.com. ns3.p27.dynect.net.
+rr c00c5e1e 172800 ns ubuntu.com. ns2.p27.dynect.net.
+rr c00c5e1e 172800 ns ubuntu.com. ns4.p27.dynect.net.
+stats 368 41110 2 0
+cached 1 ns1.p27.dynect.net.
+cached 1 ns3.p27.dynect.net.
+cached 1 ns2.p27.dynect.net.
+cached 1 ns4.p27.dynect.net.
+tx 0 1 changelogs.ubuntu.com. ubuntu.com. cc0dfa1b cc0dfb1b d04e461b d04e471b
+rr cc0dfa1b 600 1 changelogs.ubuntu.com. 5bbd5f0f
+rr cc0dfa1b 3600 ns ubuntu.com. ns2.p27.dynect.net.
+rr cc0dfa1b 3600 ns ubuntu.com. ns4.p27.dynect.net.
+rr cc0dfa1b 3600 ns ubuntu.com. ns3.p27.dynect.net.
+rr cc0dfa1b 3600 ns ubuntu.com. ns1.p27.dynect.net.
+stats 368 41273 2 0
+sent 367 55
+rr c034b21e 172800 ns ubuntu.com. ns1.p27.dynect.net.
+rr c034b21e 172800 ns ubuntu.com. ns3.p27.dynect.net.
+rr c034b21e 172800 ns ubuntu.com. ns2.p27.dynect.net.
+rr c034b21e 172800 ns ubuntu.com. ns4.p27.dynect.net.
+stats 368 41387 1 0
+cached 1 ns1.p27.dynect.net.
+cached 1 ns3.p27.dynect.net.
+cached 1 ns2.p27.dynect.net.
+cached 1 ns4.p27.dynect.net.
+tx 0 28 changelogs.ubuntu.com. ubuntu.com. d04e461b d04e471b cc0dfb1b cc0dfa1b
+rr d04e461b 3600 ns ubuntu.com. ns1.p27.dynect.net.
+rr d04e461b 3600 ns ubuntu.com. ns4.p27.dynect.net.
+rr d04e461b 3600 ns ubuntu.com. ns3.p27.dynect.net.
+rr d04e461b 3600 ns ubuntu.com. ns2.p27.dynect.net.
+rr d04e461b 600 28 changelogs.ubuntu.com. 2001067c156080080000000000000011
+stats 368 41564 1 0
+sent 368 67
+query 369 7f000001:cd24:4a95 28 search.apps.ubuntu.com.
+cached ns com. h.gtld-servers.net.
+cached ns com. b.gtld-servers.net.
+cached ns com. m.gtld-servers.net.
+cached ns com. a.gtld-servers.net.
+cached ns com. g.gtld-servers.net.
+cached ns com. l.gtld-servers.net.
+cached ns com. f.gtld-servers.net.
+cached ns com. i.gtld-servers.net.
+cached ns com. e.gtld-servers.net.
+cached ns com. c.gtld-servers.net.
+cached ns com. j.gtld-servers.net.
+cached ns com. d.gtld-servers.net.
+cached ns com. k.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+cached 1 a.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 e.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 j.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+tx 0 28 search.apps.ubuntu.com. com. c00c5e1e c0210e1e c02bac1e c036701e c029a21e c01f501e c0304f1e c005061e c02a5d1e c037531e c023331e c01a5c1e c034b21e
+query 370 7f000001:cbe2:9c74 1 search.apps.ubuntu.com.
+cached ns com. h.gtld-servers.net.
+cached ns com. b.gtld-servers.net.
+cached ns com. m.gtld-servers.net.
+cached ns com. a.gtld-servers.net.
+cached ns com. g.gtld-servers.net.
+cached ns com. l.gtld-servers.net.
+cached ns com. f.gtld-servers.net.
+cached ns com. i.gtld-servers.net.
+cached ns com. e.gtld-servers.net.
+cached ns com. c.gtld-servers.net.
+cached ns com. j.gtld-servers.net.
+cached ns com. d.gtld-servers.net.
+cached ns com. k.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+cached 1 a.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 e.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 j.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+tx 0 1 search.apps.ubuntu.com. com. c02bac1e c0210e1e c00c5e1e c037531e c023331e c02a5d1e c034b21e c0304f1e c005061e c01a5c1e c036701e c01f501e c029a21e
+rr c00c5e1e 172800 ns ubuntu.com. ns1.p27.dynect.net.
+rr c00c5e1e 172800 ns ubuntu.com. ns3.p27.dynect.net.
+rr c00c5e1e 172800 ns ubuntu.com. ns2.p27.dynect.net.
+rr c00c5e1e 172800 ns ubuntu.com. ns4.p27.dynect.net.
+stats 370 41678 2 0
+cached 1 ns1.p27.dynect.net.
+cached 1 ns3.p27.dynect.net.
+cached 1 ns2.p27.dynect.net.
+cached 1 ns4.p27.dynect.net.
+tx 0 28 search.apps.ubuntu.com. ubuntu.com. d04e471b cc0dfb1b d04e461b cc0dfa1b
+nodata d04e471b 3600 28 search.apps.ubuntu.com.
+stats 370 41724 2 0
+sent 369 40
+rr c02bac1e 172800 ns ubuntu.com. ns1.p27.dynect.net.
+rr c02bac1e 172800 ns ubuntu.com. ns3.p27.dynect.net.
+rr c02bac1e 172800 ns ubuntu.com. ns2.p27.dynect.net.
+rr c02bac1e 172800 ns ubuntu.com. ns4.p27.dynect.net.
+stats 370 41838 1 0
+cached 1 ns1.p27.dynect.net.
+cached 1 ns3.p27.dynect.net.
+cached 1 ns2.p27.dynect.net.
+cached 1 ns4.p27.dynect.net.
+tx 0 1 search.apps.ubuntu.com. ubuntu.com. cc0dfa1b d04e461b cc0dfb1b d04e471b
+rr cc0dfa1b 600 1 search.apps.ubuntu.com. a2d521c8
+rr cc0dfa1b 600 1 search.apps.ubuntu.com. a2d521c4
+rr cc0dfa1b 3600 ns ubuntu.com. ns4.p27.dynect.net.
+rr cc0dfa1b 3600 ns ubuntu.com. ns2.p27.dynect.net.
+rr cc0dfa1b 3600 ns ubuntu.com. ns3.p27.dynect.net.
+rr cc0dfa1b 3600 ns ubuntu.com. ns1.p27.dynect.net.
+stats 370 42006 1 0
+sent 370 72
+query 371 7f000001:826d:cfce 1 reddit.com.
+cached ns reddit.com. cns1.reddit.com.
+cached ns reddit.com. cns2.reddit.com.
+cached ns reddit.com. cns3.reddit.com.
+cached ns reddit.com. cns1.reddit.com.
+cached ns reddit.com. cns2.reddit.com.
+cached ns reddit.com. cns3.reddit.com.
+tx 2 1 cns1.reddit.com. . c03a801e c0cbe60a 803f0235 c0e44fc9 ca0c1b21 c021040c c0702404 80080a5a c0249411 c707532a c1000e81 c6290004 c00505f1
+rr c03a801e 172800 1 a.gtld-servers.net. c005061e
+rr c03a801e 172800 1 b.gtld-servers.net. c0210e1e
+rr c03a801e 172800 1 c.gtld-servers.net. c01a5c1e
+rr c03a801e 172800 1 d.gtld-servers.net. c01f501e
+rr c03a801e 172800 1 e.gtld-servers.net. c00c5e1e
+rr c03a801e 172800 1 f.gtld-servers.net. c023331e
+rr c03a801e 172800 1 g.gtld-servers.net. c02a5d1e
+rr c03a801e 172800 1 h.gtld-servers.net. c036701e
+rr c03a801e 172800 1 i.gtld-servers.net. c02bac1e
+rr c03a801e 172800 1 j.gtld-servers.net. c0304f1e
+rr c03a801e 172800 1 k.gtld-servers.net. c034b21e
+rr c03a801e 172800 1 l.gtld-servers.net. c029a21e
+rr c03a801e 172800 1 m.gtld-servers.net. c037531e
+rr c03a801e 172800 ns com. a.gtld-servers.net.
+rr c03a801e 172800 ns com. b.gtld-servers.net.
+rr c03a801e 172800 ns com. c.gtld-servers.net.
+rr c03a801e 172800 ns com. d.gtld-servers.net.
+rr c03a801e 172800 ns com. e.gtld-servers.net.
+rr c03a801e 172800 ns com. f.gtld-servers.net.
+rr c03a801e 172800 ns com. g.gtld-servers.net.
+rr c03a801e 172800 ns com. h.gtld-servers.net.
+rr c03a801e 172800 ns com. i.gtld-servers.net.
+rr c03a801e 172800 ns com. j.gtld-servers.net.
+rr c03a801e 172800 ns com. k.gtld-servers.net.
+rr c03a801e 172800 ns com. l.gtld-servers.net.
+rr c03a801e 172800 ns com. m.gtld-servers.net.
+rr c03a801e 172800 28 a.gtld-servers.net. 20010503a83e00000000000000020030
+stats 371 42951 1 0
+cached 1 a.gtld-servers.net.
+cached 1 b.gtld-servers.net.
+cached 1 c.gtld-servers.net.
+cached 1 d.gtld-servers.net.
+cached 1 e.gtld-servers.net.
+cached 1 f.gtld-servers.net.
+cached 1 g.gtld-servers.net.
+cached 1 h.gtld-servers.net.
+cached 1 i.gtld-servers.net.
+cached 1 j.gtld-servers.net.
+cached 1 k.gtld-servers.net.
+cached 1 l.gtld-servers.net.
+cached 1 m.gtld-servers.net.
+tx 2 1 cns1.reddit.com. com. c005061e c034b21e c00c5e1e c029a21e c037531e c01a5c1e c02bac1e c036701e c01f501e c0210e1e c0304f1e c02a5d1e c023331e
+rr c005061e 172800 1 cns1.reddit.com. adf53a18
+rr c005061e 172800 1 cns2.reddit.com. c629de18
+rr c005061e 172800 1 cns3.reddit.com. c629df18
+rr c005061e 172800 ns reddit.com. cns1.reddit.com.
+rr c005061e 172800 ns reddit.com. cns2.reddit.com.
+rr c005061e 172800 ns reddit.com. cns3.reddit.com.
+rr c005061e 172800 28 cns1.reddit.com. 2400cb002049000100000000adf53a18
+rr c005061e 172800 28 cns2.reddit.com. 2400cb002049000100000000c629de18
+rr c005061e 172800 28 cns3.reddit.com. 2400cb002049000100000000c629df18
+stats 371 43336 1 0
+cached 1 cns1.reddit.com.
+cached 1 cns2.reddit.com.
+cached 1 cns3.reddit.com.
+tx 2 1 cns1.reddit.com. reddit.com. adf53a18 c629de18 c629df18
+rr adf53a18 900 1 cns1.reddit.com. adf53a18
+stats 371 43379 1 0
+cached 1 cns2.reddit.com.
+cached 1 cns3.reddit.com.
+tx 1 1 cns1.reddit.com. reddit.com. c629df18 c629de18 adf53a18
+rr c629df18 900 1 cns1.reddit.com. adf53a18
+stats 371 43422 1 0
+cached 1 cns2.reddit.com.
+cached 1 cns3.reddit.com.
+tx 0 1 reddit.com. reddit.com. c629de18 c629df18 adf53a18
+rr c629de18 300 1 reddit.com. c629d18e
+rr c629de18 300 1 reddit.com. c629d189
+rr c629de18 300 1 reddit.com. c629d18f
+rr c629de18 300 1 reddit.com. c629d18b
+rr c629de18 300 1 reddit.com. c629d08e
+rr c629de18 300 1 reddit.com. c629d18a
+rr c629de18 300 1 reddit.com. c629d08d
+rr c629de18 300 1 reddit.com. c629d08c
+rr c629de18 300 1 reddit.com. c629d18d
+rr c629de18 300 1 reddit.com. c629d089
+rr c629de18 300 1 reddit.com. c629d188
+rr c629de18 300 1 reddit.com. c629d18c
+rr c629de18 300 1 reddit.com. c629d08a
+rr c629de18 300 1 reddit.com. c629d08f
+rr c629de18 300 1 reddit.com. c629d08b
+stats 371 43516 1 0
+sent 371 268
+query 372 7f000001:9655:bb3c 12 142.209.41.198.in-addr.arpa.
+cached ns 209.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 209.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 142.209.41.198.in-addr.arpa. 209.41.198.in-addr.arpa. adf53b64 adf53a64
+nodata adf53b64 3600 12 142.209.41.198.in-addr.arpa.
+stats 372 43567 1 0
+sent 372 45
+query 373 7f000001:8019:b408 12 137.209.41.198.in-addr.arpa.
+cached ns 209.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 209.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 137.209.41.198.in-addr.arpa. 209.41.198.in-addr.arpa. adf53a64 adf53b64
+nodata adf53a64 3600 12 137.209.41.198.in-addr.arpa.
+stats 373 43618 1 0
+sent 373 45
+query 374 7f000001:b5fc:5848 12 143.209.41.198.in-addr.arpa.
+cached ns 209.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 209.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 143.209.41.198.in-addr.arpa. 209.41.198.in-addr.arpa. adf53a64 adf53b64
+nodata adf53a64 3600 12 143.209.41.198.in-addr.arpa.
+stats 374 43669 1 0
+sent 374 45
+query 375 7f000001:aa52:42b2 12 139.209.41.198.in-addr.arpa.
+cached ns 209.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 209.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 139.209.41.198.in-addr.arpa. 209.41.198.in-addr.arpa. adf53b64 adf53a64
+nodata adf53b64 3600 12 139.209.41.198.in-addr.arpa.
+stats 375 43720 1 0
+sent 375 45
+query 376 7f000001:93c2:d4b6 12 142.208.41.198.in-addr.arpa.
+cached ns 208.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 208.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 142.208.41.198.in-addr.arpa. 208.41.198.in-addr.arpa. adf53a64 adf53b64
+nodata adf53a64 3600 12 142.208.41.198.in-addr.arpa.
+stats 376 43771 1 0
+sent 376 45
+query 377 7f000001:a3b9:1610 12 138.209.41.198.in-addr.arpa.
+cached ns 209.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 209.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 138.209.41.198.in-addr.arpa. 209.41.198.in-addr.arpa. adf53b64 adf53a64
+nodata adf53b64 3600 12 138.209.41.198.in-addr.arpa.
+stats 377 43822 1 0
+sent 377 45
+query 378 7f000001:cc1a:ddc8 12 141.208.41.198.in-addr.arpa.
+cached ns 208.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 208.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 141.208.41.198.in-addr.arpa. 208.41.198.in-addr.arpa. adf53b64 adf53a64
+nodata adf53b64 3600 12 141.208.41.198.in-addr.arpa.
+stats 378 43873 1 0
+sent 378 45
+query 379 7f000001:e44c:8119 12 140.208.41.198.in-addr.arpa.
+cached ns 208.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 208.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 140.208.41.198.in-addr.arpa. 208.41.198.in-addr.arpa. adf53b64 adf53a64
+nodata adf53b64 3600 12 140.208.41.198.in-addr.arpa.
+stats 379 43924 1 0
+sent 379 45
+query 380 7f000001:ac7d:c012 12 141.209.41.198.in-addr.arpa.
+cached ns 209.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 209.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 141.209.41.198.in-addr.arpa. 209.41.198.in-addr.arpa. adf53a64 adf53b64
+nodata adf53a64 3600 12 141.209.41.198.in-addr.arpa.
+stats 380 43975 1 0
+sent 380 45
+query 381 7f000001:91ac:24bc 12 137.208.41.198.in-addr.arpa.
+cached ns 208.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 208.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 137.208.41.198.in-addr.arpa. 208.41.198.in-addr.arpa. adf53b64 adf53a64
+nodata adf53b64 3600 12 137.208.41.198.in-addr.arpa.
+stats 381 44026 1 0
+sent 381 45
+query 382 7f000001:8dc2:5db0 12 136.209.41.198.in-addr.arpa.
+cached ns 209.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 209.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 136.209.41.198.in-addr.arpa. 209.41.198.in-addr.arpa. adf53b64 adf53a64
+nodata adf53b64 3600 12 136.209.41.198.in-addr.arpa.
+stats 382 44077 1 0
+sent 382 45
+query 383 7f000001:c063:18a5 12 140.209.41.198.in-addr.arpa.
+cached ns 209.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 209.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 140.209.41.198.in-addr.arpa. 209.41.198.in-addr.arpa. adf53b64 adf53a64
+nodata adf53b64 3600 12 140.209.41.198.in-addr.arpa.
+stats 383 44128 1 0
+sent 383 45
+query 384 7f000001:cbf2:300a 12 138.208.41.198.in-addr.arpa.
+cached ns 208.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 208.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 138.208.41.198.in-addr.arpa. 208.41.198.in-addr.arpa. adf53b64 adf53a64
+nodata adf53b64 3600 12 138.208.41.198.in-addr.arpa.
+stats 384 44179 1 0
+sent 384 45
+query 385 7f000001:db57:dbbf 12 143.208.41.198.in-addr.arpa.
+cached ns 208.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 208.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 143.208.41.198.in-addr.arpa. 208.41.198.in-addr.arpa. adf53b64 adf53a64
+nodata adf53b64 3600 12 143.208.41.198.in-addr.arpa.
+stats 385 44230 1 0
+sent 385 45
+query 386 7f000001:a763:7272 12 139.208.41.198.in-addr.arpa.
+cached ns 208.41.198.in-addr.arpa. ns1.cloudflare.com.
+cached ns 208.41.198.in-addr.arpa. ns2.cloudflare.com.
+cached 1 ns1.cloudflare.com.
+cached 1 ns2.cloudflare.com.
+tx 0 12 139.208.41.198.in-addr.arpa. 208.41.198.in-addr.arpa. adf53a64 adf53b64
+nodata adf53a64 3600 12 139.208.41.198.in-addr.arpa.
+stats 386 44281 1 0
+sent 386 45
+query 387 7f000001:98f3:5def 1 reddit.com.
+cached 1 reddit.com.
+sent 387 268
+query 388 7f000001:a347:eaa5 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 388 45
+query 389 7f000001:d07c:22ab 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 389 45
+query 390 7f000001:ec6c:3c8f 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 390 45
+query 391 7f000001:9e34:8e19 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 391 45
+query 392 7f000001:c584:7177 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 392 45
+query 393 7f000001:9a2e:34de 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 393 45
+query 394 7f000001:80f9:fe68 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 394 45
+query 395 7f000001:a184:6dac 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 395 45
+query 396 7f000001:d289:fa89 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 396 45
+query 397 7f000001:8de8:15fa 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 397 45
+query 398 7f000001:85c8:02ee 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 398 45
+query 399 7f000001:d24d:5ebe 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 399 45
+query 400 7f000001:84c4:4095 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 400 45
+query 401 7f000001:a465:50bb 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 401 45
+query 402 7f000001:845a:5427 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 402 45
+query 403 7f000001:b2b5:1719 1 reddit.com.
+cached 1 reddit.com.
+sent 403 268
+query 404 7f000001:96db:3b41 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 404 45
+query 405 7f000001:caa8:bac6 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 405 45
+query 406 7f000001:c4a9:f004 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 406 45
+query 407 7f000001:8dee:debb 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 407 45
+query 408 7f000001:baab:099f 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 408 45
+query 409 7f000001:8b16:bf6c 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 409 45
+query 410 7f000001:d74e:92b2 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 410 45
+query 411 7f000001:a15b:7117 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 411 45
+query 412 7f000001:9803:8707 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 412 45
+query 413 7f000001:b4d6:4195 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 413 45
+query 414 7f000001:ccc0:f8d4 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 414 45
+query 415 7f000001:8210:74ca 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 415 45
+query 416 7f000001:8cd4:2d6c 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 416 45
+query 417 7f000001:e2a9:c630 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 417 45
+query 418 7f000001:9834:72f7 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 418 45
+query 419 7f000001:a65d:700c 1 reddit.com.
+cached 1 reddit.com.
+sent 419 268
+query 420 7f000001:9fb0:81fd 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 420 45
+query 421 7f000001:a5e5:26eb 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 421 45
+query 422 7f000001:d447:9fb8 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 422 45
+query 423 7f000001:d4f8:4c7c 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 423 45
+query 424 7f000001:84e7:2ca8 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 424 45
+query 425 7f000001:91aa:0862 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 425 45
+query 426 7f000001:9947:3e89 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 426 45
+query 427 7f000001:9eed:057d 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 427 45
+query 428 7f000001:e942:202d 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 428 45
+query 429 7f000001:b7b3:8c13 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 429 45
+query 430 7f000001:b55b:e742 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 430 45
+query 431 7f000001:e5df:f01f 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 431 45
+query 432 7f000001:ae90:4acb 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 432 45
+query 433 7f000001:ab95:589b 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 433 45
+query 434 7f000001:ecc0:1459 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 434 45
+query 435 7f000001:c40d:75c4 1 reddit.com.
+cached 1 reddit.com.
+sent 435 268
+query 436 7f000001:ca75:bd32 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 436 45
+query 437 7f000001:ba3e:f9d7 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 437 45
+query 438 7f000001:d03b:5883 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 438 45
+query 439 7f000001:b8b8:c0fe 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 439 45
+query 440 7f000001:a4c8:b2a8 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 440 45
+query 441 7f000001:e286:9906 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 441 45
+query 442 7f000001:db30:8aa5 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 442 45
+query 443 7f000001:a1ae:107a 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 443 45
+query 444 7f000001:a9ee:b74c 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 444 45
+query 445 7f000001:a1d5:5019 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 445 45
+query 446 7f000001:d079:966f 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 446 45
+query 447 7f000001:d949:cd77 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 447 45
+query 448 7f000001:d73a:3ed1 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 448 45
+query 449 7f000001:b368:6057 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 449 45
+query 450 7f000001:def5:71ea 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 450 45
+query 451 7f000001:a728:f47c 1 reddit.com.
+cached 1 reddit.com.
+sent 451 268
+query 452 7f000001:e18c:3de7 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 452 45
+query 453 7f000001:87bd:e7a6 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 453 45
+query 454 7f000001:dd40:8e6d 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 454 45
+query 455 7f000001:922d:e4a2 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 455 45
+query 456 7f000001:b79a:a185 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 456 45
+query 457 7f000001:81e8:a2d0 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 457 45
+query 458 7f000001:c083:1bdb 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 458 45
+query 459 7f000001:9c8b:68fd 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 459 45
+query 460 7f000001:a32c:7aac 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 460 45
+query 461 7f000001:bf88:2ad5 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 461 45
+query 462 7f000001:8fb1:f5fa 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 462 45
+query 463 7f000001:8bb8:2630 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 463 45
+query 464 7f000001:8f27:20d9 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 464 45
+query 465 7f000001:8139:4d24 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 465 45
+query 466 7f000001:d39a:5264 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 466 45
+query 467 7f000001:c72a:cdbe 1 reddit.com.
+cached 1 reddit.com.
+sent 467 268
+query 468 7f000001:ba89:fddb 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 468 45
+query 469 7f000001:cf1e:3a63 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 469 45
+query 470 7f000001:db07:377c 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 470 45
+query 471 7f000001:a870:fc96 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 471 45
+query 472 7f000001:e3d1:f42c 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 472 45
+query 473 7f000001:be1d:e0cb 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 473 45
+query 474 7f000001:96a5:3397 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 474 45
+query 475 7f000001:8a77:79d4 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 475 45
+query 476 7f000001:cc4b:9112 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 476 45
+query 477 7f000001:cb08:c77a 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 477 45
+query 478 7f000001:e1ea:140a 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 478 45
+query 479 7f000001:aa57:513b 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 479 45
+query 480 7f000001:98f5:c574 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 480 45
+query 481 7f000001:84d1:96fb 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 481 45
+query 482 7f000001:9a9b:6eb4 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 482 45
+query 483 7f000001:82e3:4bc1 1 reddit.com.
+cached 1 reddit.com.
+sent 483 268
+query 484 7f000001:c799:3155 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 484 45
+query 485 7f000001:b760:2110 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 485 45
+query 486 7f000001:d5ba:1573 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 486 45
+query 487 7f000001:8889:9c79 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 487 45
+query 488 7f000001:ab27:12b1 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 488 45
+query 489 7f000001:8d03:d33d 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 489 45
+query 490 7f000001:d285:be38 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 490 45
+query 491 7f000001:971a:c3f4 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 491 45
+query 492 7f000001:e34e:6f4c 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 492 45
+query 493 7f000001:946d:057d 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 493 45
+query 494 7f000001:d138:a042 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 494 45
+query 495 7f000001:b594:94c4 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 495 45
+query 496 7f000001:a06e:3a23 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 496 45
+query 497 7f000001:d2e8:151b 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 497 45
+query 498 7f000001:b0c3:ba0d 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 498 45
+query 499 7f000001:9226:1e06 1 reddit.com.
+cached 1 reddit.com.
+sent 499 268
+query 500 7f000001:a117:e8f3 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 500 45
+query 501 7f000001:af51:5cd8 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 501 45
+query 502 7f000001:da5a:c6e5 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 502 45
+query 503 7f000001:e2d1:dd0b 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 503 45
+query 504 7f000001:9f40:d35f 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 504 45
+query 505 7f000001:e6d5:99c2 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 505 45
+query 506 7f000001:a5a3:197c 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 506 45
+query 507 7f000001:e579:23ce 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 507 45
+query 508 7f000001:c398:61d0 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 508 45
+query 509 7f000001:bad2:09d6 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 509 45
+query 510 7f000001:c22f:75b1 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 510 45
+query 511 7f000001:e6d0:2815 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 511 45
+query 512 7f000001:ecc1:56a9 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 512 45
+query 513 7f000001:b4b6:88b7 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 513 45
+query 514 7f000001:9d39:f821 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 514 45
+query 515 7f000001:8555:52da 1 reddit.com.
+cached 1 reddit.com.
+sent 515 268
+query 516 7f000001:8ef8:d8f8 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 516 45
+query 517 7f000001:d358:6b0e 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 517 45
+query 518 7f000001:d200:44dd 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 518 45
+query 519 7f000001:d1d1:923b 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 519 45
+query 520 7f000001:cd52:1f07 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 520 45
+query 521 7f000001:d1f7:3eb0 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 521 45
+query 522 7f000001:a8bd:8769 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 522 45
+query 523 7f000001:e472:cd1c 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 523 45
+query 524 7f000001:e4ab:47ee 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 524 45
+query 525 7f000001:afa1:989e 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 525 45
+query 526 7f000001:e3aa:5f37 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 526 45
+query 527 7f000001:8c45:3066 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 527 45
+query 528 7f000001:9ce1:5676 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 528 45
+query 529 7f000001:d786:827d 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 529 45
+query 530 7f000001:ac2c:a30a 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 530 45
+query 531 7f000001:d930:8588 1 reddit.com.
+cached 1 reddit.com.
+sent 531 268
+query 532 7f000001:ad29:15d9 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 532 45
+query 533 7f000001:c0ff:7bda 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 533 45
+query 534 7f000001:c2d1:86bc 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 534 45
+query 535 7f000001:a6bb:aa38 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 535 45
+query 536 7f000001:d2cf:f032 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 536 45
+query 537 7f000001:af09:0304 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 537 45
+query 538 7f000001:939a:5cca 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 538 45
+query 539 7f000001:9a17:82e4 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 539 45
+query 540 7f000001:9aeb:f77c 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 540 45
+query 541 7f000001:87f9:236d 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 541 45
+query 542 7f000001:ba05:d35f 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 542 45
+query 543 7f000001:c46e:736f 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 543 45
+query 544 7f000001:be36:81b1 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 544 45
+query 545 7f000001:9de2:e00a 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 545 45
+query 546 7f000001:e09a:675e 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 546 45
+query 547 7f000001:bc21:c892 1 reddit.com.
+cached 1 reddit.com.
+sent 547 268
+query 548 7f000001:e7fb:eb90 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 548 45
+query 549 7f000001:e8f5:8403 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 549 45
+query 550 7f000001:a4b0:9a96 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 550 45
+query 551 7f000001:bcc7:228b 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 551 45
+query 552 7f000001:94f4:232e 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 552 45
+query 553 7f000001:e884:5258 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 553 45
+query 554 7f000001:d946:cc56 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 554 45
+query 555 7f000001:92bf:6032 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 555 45
+query 556 7f000001:b452:c0f8 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 556 45
+query 557 7f000001:8652:52c8 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 557 45
+query 558 7f000001:c062:974f 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 558 45
+query 559 7f000001:d080:2070 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 559 45
+query 560 7f000001:c6da:b90b 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 560 45
+query 561 7f000001:eb0e:b129 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 561 45
+query 562 7f000001:d5f5:cee8 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 562 45
+query 563 7f000001:cdb6:224f 1 reddit.com.
+cached 1 reddit.com.
+sent 563 268
+query 564 7f000001:9f33:7f5c 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 564 45
+query 565 7f000001:8aaa:e540 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 565 45
+query 566 7f000001:93fb:477b 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 566 45
+query 567 7f000001:9708:d909 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 567 45
+query 568 7f000001:a0e6:94fb 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 568 45
+query 569 7f000001:bc0c:3b11 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 569 45
+query 570 7f000001:cdf6:e08b 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 570 45
+query 571 7f000001:8ae8:892e 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 571 45
+query 572 7f000001:950b:0361 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 572 45
+query 573 7f000001:8653:2f0b 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 573 45
+query 574 7f000001:b650:066d 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 574 45
+query 575 7f000001:cbfe:afe5 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 575 45
+query 576 7f000001:ca24:57d8 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 576 45
+query 577 7f000001:94e7:0674 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 577 45
+query 578 7f000001:c79f:6061 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 578 45
+query 579 7f000001:a0be:2415 1 reddit.com.
+cached 1 reddit.com.
+sent 579 268
+query 580 7f000001:d66a:f408 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 580 45
+query 581 7f000001:bd21:e84b 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 581 45
+query 582 7f000001:b069:1d17 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 582 45
+query 583 7f000001:9708:04ab 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 583 45
+query 584 7f000001:c96a:3a1b 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 584 45
+query 585 7f000001:bb40:b95d 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 585 45
+query 586 7f000001:c02d:355f 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 586 45
+query 587 7f000001:98e1:58be 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 587 45
+query 588 7f000001:a304:3fad 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 588 45
+query 589 7f000001:8227:2040 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 589 45
+query 590 7f000001:a05d:11b2 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 590 45
+query 591 7f000001:ce28:aacd 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 591 45
+query 592 7f000001:9058:59ab 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 592 45
+query 593 7f000001:db3f:743a 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 593 45
+query 594 7f000001:b246:96f0 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 594 45
+query 595 7f000001:9468:f486 1 reddit.com.
+cached 1 reddit.com.
+sent 595 268
+query 596 7f000001:ba9c:791b 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 596 45
+query 597 7f000001:d4e2:3eef 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 597 45
+query 598 7f000001:e276:ff51 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 598 45
+query 599 7f000001:8086:6c96 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 599 45
+query 600 7f000001:913d:7687 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 600 45
+query 601 7f000001:ad9d:4de0 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 601 45
+query 602 7f000001:a802:8299 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 602 45
+query 603 7f000001:8536:63fd 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 603 45
+query 604 7f000001:eb42:6c74 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 604 45
+query 605 7f000001:9c60:c549 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 605 45
+query 606 7f000001:9432:03cf 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 606 45
+query 607 7f000001:e8e1:4787 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 607 45
+query 608 7f000001:8f16:6570 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 608 45
+query 609 7f000001:bc65:9ed2 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 609 45
+query 610 7f000001:b9bf:2b89 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 610 45
+query 611 7f000001:be6e:d4ad 1 reddit.com.
+cached 1 reddit.com.
+sent 611 268
+query 612 7f000001:bd8c:7950 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 612 45
+query 613 7f000001:a98d:3fa2 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 613 45
+query 614 7f000001:b8d2:bd03 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 614 45
+query 615 7f000001:ea2d:bdbc 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 615 45
+query 616 7f000001:9481:3030 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 616 45
+query 617 7f000001:a5a1:7165 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 617 45
+query 618 7f000001:8ab9:3d18 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 618 45
+query 619 7f000001:c03a:6bbd 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 619 45
+query 620 7f000001:82c3:25ae 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 620 45
+query 621 7f000001:b607:0a60 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 621 45
+query 622 7f000001:a79f:6d14 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 622 45
+query 623 7f000001:98b7:bcaf 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 623 45
+query 624 7f000001:c692:d266 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 624 45
+query 625 7f000001:a9c9:d030 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 625 45
+query 626 7f000001:9a0c:2651 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 626 45
+query 627 7f000001:8ca3:725e 1 reddit.com.
+cached 1 reddit.com.
+sent 627 268
+query 628 7f000001:bc27:188f 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 628 45
+query 629 7f000001:8fc8:1082 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 629 45
+query 630 7f000001:dc6f:a429 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 630 45
+query 631 7f000001:d578:f4e7 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 631 45
+query 632 7f000001:8f5d:1ebe 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 632 45
+query 633 7f000001:a075:f71d 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 633 45
+query 634 7f000001:8aae:e7d5 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 634 45
+query 635 7f000001:9165:787e 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 635 45
+query 636 7f000001:8c28:04b2 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 636 45
+query 637 7f000001:c3e4:6abb 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 637 45
+query 638 7f000001:d094:ae3b 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 638 45
+query 639 7f000001:e896:3ccb 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 639 45
+query 640 7f000001:8108:4cae 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 640 45
+query 641 7f000001:c63f:b2cf 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 641 45
+query 642 7f000001:8e66:3cda 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 642 45
+query 643 7f000001:ce0d:53b8 1 reddit.com.
+cached 1 reddit.com.
+sent 643 268
+query 644 7f000001:8022:d66a 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 644 45
+query 645 7f000001:9863:3433 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 645 45
+query 646 7f000001:ce50:fdb7 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 646 45
+query 647 7f000001:df89:f650 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 647 45
+query 648 7f000001:b245:16df 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 648 45
+query 649 7f000001:8bc1:fd87 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 649 45
+query 650 7f000001:9c7d:e9e4 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 650 45
+query 651 7f000001:bcec:961a 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 651 45
+query 652 7f000001:d398:d8e5 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 652 45
+query 653 7f000001:a204:6023 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 653 45
+query 654 7f000001:8ff1:2740 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 654 45
+query 655 7f000001:ce04:f417 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 655 45
+query 656 7f000001:bca3:0942 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 656 45
+query 657 7f000001:b70a:12dd 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 657 45
+query 658 7f000001:de8d:25fe 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 658 45
+query 659 7f000001:eb50:8549 1 reddit.com.
+cached 1 reddit.com.
+sent 659 268
+query 660 7f000001:e28e:b1f4 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 660 45
+query 661 7f000001:c120:80a8 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 661 45
+query 662 7f000001:eb61:cdfa 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 662 45
+query 663 7f000001:ce36:c9a4 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 663 45
+query 664 7f000001:dece:ec74 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 664 45
+query 665 7f000001:e49c:dd6c 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 665 45
+query 666 7f000001:c7f8:7f05 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 666 45
+query 667 7f000001:82e7:9a87 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 667 45
+query 668 7f000001:a04f:f5a9 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 668 45
+query 669 7f000001:c267:b5d8 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 669 45
+query 670 7f000001:c9e0:1f63 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 670 45
+query 671 7f000001:9c44:70f2 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 671 45
+query 672 7f000001:8b53:e570 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 672 45
+query 673 7f000001:c519:e46e 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 673 45
+query 674 7f000001:c79c:b771 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 674 45
+query 675 7f000001:d317:8273 1 reddit.com.
+cached 1 reddit.com.
+sent 675 268
+query 676 7f000001:8267:e455 12 142.209.41.198.in-addr.arpa.
+cached 12 142.209.41.198.in-addr.arpa.
+sent 676 45
+query 677 7f000001:df57:bacf 12 137.209.41.198.in-addr.arpa.
+cached 12 137.209.41.198.in-addr.arpa.
+sent 677 45
+query 678 7f000001:8561:5f34 12 143.209.41.198.in-addr.arpa.
+cached 12 143.209.41.198.in-addr.arpa.
+sent 678 45
+query 679 7f000001:ca86:e6b7 12 139.209.41.198.in-addr.arpa.
+cached 12 139.209.41.198.in-addr.arpa.
+sent 679 45
+query 680 7f000001:e79d:1ab0 12 142.208.41.198.in-addr.arpa.
+cached 12 142.208.41.198.in-addr.arpa.
+sent 680 45
+query 681 7f000001:cbf4:aa5f 12 138.209.41.198.in-addr.arpa.
+cached 12 138.209.41.198.in-addr.arpa.
+sent 681 45
+query 682 7f000001:c014:aad3 12 141.208.41.198.in-addr.arpa.
+cached 12 141.208.41.198.in-addr.arpa.
+sent 682 45
+query 683 7f000001:9e4e:5e35 12 140.208.41.198.in-addr.arpa.
+cached 12 140.208.41.198.in-addr.arpa.
+sent 683 45
+query 684 7f000001:8a3c:1814 12 141.209.41.198.in-addr.arpa.
+cached 12 141.209.41.198.in-addr.arpa.
+sent 684 45
+query 685 7f000001:dd77:4473 12 137.208.41.198.in-addr.arpa.
+cached 12 137.208.41.198.in-addr.arpa.
+sent 685 45
+query 686 7f000001:85ee:9702 12 136.209.41.198.in-addr.arpa.
+cached 12 136.209.41.198.in-addr.arpa.
+sent 686 45
+query 687 7f000001:b48c:3485 12 140.209.41.198.in-addr.arpa.
+cached 12 140.209.41.198.in-addr.arpa.
+sent 687 45
+query 688 7f000001:c80e:f719 12 138.208.41.198.in-addr.arpa.
+cached 12 138.208.41.198.in-addr.arpa.
+sent 688 45
+query 689 7f000001:b53f:51d7 12 143.208.41.198.in-addr.arpa.
+cached 12 143.208.41.198.in-addr.arpa.
+sent 689 45
+query 690 7f000001:ce1d:462e 12 139.208.41.198.in-addr.arpa.
+cached 12 139.208.41.198.in-addr.arpa.
+sent 690 45
+query 691 7f000001:db19:ff3c 1 reddit.com.
+cached 1 reddit.com.
+sent 691 268

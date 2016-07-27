@@ -5,9 +5,14 @@ import (
 	"io/ioutil"
 	"os"
 	"testing"
+	"time"
 )
 
-func openfile(t *testing.T, path string) *os.File {
+type fatalist interface {
+	Fatal(...interface{})
+}
+
+func openfile(t fatalist, path string) *os.File {
 	f, err := os.OpenFile(path, os.O_RDWR, 0666)
 	if err != nil {
 		t.Fatal(err)
@@ -15,7 +20,7 @@ func openfile(t *testing.T, path string) *os.File {
 	return f
 }
 
-func tmpfile(t *testing.T, prefix string) (*os.File, func()) {
+func tmpfile(t fatalist, prefix string) (*os.File, func()) {
 	f, err := ioutil.TempFile("", prefix)
 	if err != nil {
 		t.Fatal(err)
@@ -45,4 +50,50 @@ func TestMain(t *testing.T) {
 	for scanner.Scan() {
 		t.Logf("%s", scanner.Text())
 	}
+}
+
+func BenchmarkDirect(b *testing.B) {
+	file := openfile(b, "testdata/dnscache-notime.log")
+	c := make(chan metric)
+	go func() {
+		for range c {
+		}
+	}()
+
+	lr := &logReader{
+		src:         file,
+		dst:         c,
+		interval:    time.Minute,
+		timestamped: false,
+		done:        make(chan struct{}),
+		stats: stats{
+			queries: make(map[string]time.Time, 10000),
+		},
+	}
+
+	b.ResetTimer()
+	lr.run()
+}
+
+func BenchmarkTimestamped(b *testing.B) {
+	file := openfile(b, "testdata/dnscache.log")
+	c := make(chan metric)
+	go func() {
+		for range c {
+		}
+	}()
+
+	lr := &logReader{
+		src:         file,
+		dst:         c,
+		interval:    time.Minute,
+		timestamped: true,
+		done:        make(chan struct{}),
+		stats: stats{
+			queries: make(map[string]time.Time, 10000),
+		},
+	}
+
+	b.ResetTimer()
+	lr.run()
 }

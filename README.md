@@ -17,7 +17,7 @@ log script for dnscache:
 
 	#!/bin/bash
 	exec > >(exec setuidgid Gdnslog multilog t ./main)
-	exec setuidgid Gdnslog graphite-stats graphite.example.net
+	exec setuidgid Gdnslog dnscache-stats graphite.example.net
 		
 
 This is the recommended way to run dnscache-stats. Alternatively, it can be

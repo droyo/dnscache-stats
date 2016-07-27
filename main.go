@@ -278,9 +278,8 @@ func (l *logReader) sample(ts time.Time) {
 		// to generate alerts.
 		select {
 		case l.dst <- m:
-		default:
+		case <-l.dst:
 			dropCount++
-			<-l.dst
 			if dropCount == 100 {
 				verbosef("dropped %d metrics due to buffer full")
 				dropCount = 0

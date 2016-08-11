@@ -126,7 +126,7 @@ func (l *logReader) run() {
 	}
 	scanner := bufio.NewScanner(l.src)
 	for scanner.Scan() {
-		line := strings.Fields(scanner.Text())
+		line := strings.Split(scanner.Text(), " ")
 		if len(line) < 1 {
 			continue
 		}
